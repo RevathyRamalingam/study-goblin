@@ -1,0 +1,9 @@
+[project]
+name = "study-goblin"
+version = "0.1.0"
+description = "RAG Teaching Assistant"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+]
