@@ -12,7 +12,7 @@ Built as a capstone project for [LLM Zoomcamp](https://github.com/DataTalksClub/
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=RiQcSHzR8_E">
-    <img src="images/project.png" alt="Fitness Assistant demo">
+    <img src="images/project.png" alt="Teaching Assistant demo">
   </a>
 </p>
 
@@ -314,17 +314,11 @@ Pipfile
 
 ## Dataset
 
-The dataset contains 207 exercises generated with ChatGPT. Each record includes
-exercise name, type of activity, equipment, body part, movement type, muscle
-groups, and instructions.
+class 9 NCERT science textbook pdf is taken as reference.  
 
-You can find the data in [`data/data.csv`](data/data.csv).
+You can find the data in [`data/raw/ncert_pdfs/iesc107.pdf`](data/raw/ncert_pdfs/iesc107.pdf).
 
-## Limitations
+## Future Scope
 
-- No automated test suite (only manual CLI and API testing).
-- The dataset is small (207 exercises) and generated with ChatGPT, so
-  instructions may not be as precise as professionally curated content.
-- No web UI - only CLI and API.
-- In-memory search means the index is rebuilt on every restart.
-- No user authentication or multi-user support.
+- To begin with, class 9 science NCERT textbook is used as dataset. In the future it is planned to apply all the textbooks from classes 1 to 12 so that it can be used by all the students as teaching assistant.
+
