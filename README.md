@@ -1,7 +1,7 @@
 # Study Goblin
 
 <p align="center">
-  <img src="images/image.jpg" width="400">
+  <img src="images/title.png" width="400">
 </p>
 
 Study Goblin is a RAG powered AI teaching assistant that personalizes teaching and learning experience for students. Students can ask study goblin any questions about subjects and it will be happy to help in their studies. Currently teaching assistant can answer questions for class9 students.
@@ -12,7 +12,7 @@ Built as a capstone project for [LLM Zoomcamp](https://github.com/DataTalksClub/
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=RiQcSHzR8_E">
-    <img src="images/demo.jpg" alt="Fitness Assistant demo">
+    <img src="images/project.png" alt="Fitness Assistant demo">
   </a>
 </p>
 

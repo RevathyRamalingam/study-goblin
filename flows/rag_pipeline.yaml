@@ -1,0 +1,116 @@
+id: fox_405249
+namespace: company.team
+
+tasks:
+
+  - id: process-repo
+    type: io.kestra.plugin.core.flow.WorkingDirectory
+    tasks:
+      - id: download_manual_pdfs
+        type: io.kestra.plugin.scripts.python.Script
+        beforeCommands:
+          - pip install requests
+        script: |
+          import os
+          import requests
+          import urllib3
+          import time
+
+          # Disable annoying warnings about insecure SSL connections
+          urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+          # Target folder
+          output_dir = "data/raw/ncert_pdfs"
+          os.makedirs(output_dir, exist_ok=True)
+
+          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+          
+          # List of Chapter file codes
+          chapters = ["iesc107"]
+
+          print(f"Starting textbook downloads into: {output_dir}")
+          for ch in chapters:
+              # Using explicit string concatenation to avoid any formatting typos
+              # Corrected URL path to include /textbook/pdf/
+              url = "https://ncert.nic.in/textbook/pdf/" + ch + ".pdf"
+              target_path = os.path.join(output_dir, ch + ".pdf")
+              
+              print(f"Downloading from: {url}")
+              for attempt in range(3):
+                try:
+                    response = requests.get(url, headers=headers, verify=False, timeout=130)
+                    if response.status_code == 200:
+                        with open(target_path, "wb") as f:
+                            f.write(response.content)
+                        print(f"✅ Successfully saved: {target_path}")
+                        break
+                    else:
+                        print(f"❌ Failed. Server responded with status code: {response.status_code}")
+                except Exception as e:
+                  print(f"{ch}: attempt {attempt+1} failed")
+
+                  if attempt < 2:
+                    time.sleep(3)
+                  else:
+                    print(e)
+        outputFiles:
+          - "data/raw/ncert_pdfs/*.pdf" # Capture all downloaded PDFs to Kestra's internal storage
+      - id: parse_pdf
+        type: io.kestra.plugin.tika.Parse
+        from: "{{ outputs.download_manual_pdfs.outputFiles['data/raw/ncert_pdfs/iesc107.pdf'] }}" # Reference the internal storage URI of the specific PDF
+        contentType: TEXT
+        store: false
+      - id: log_text
+        type: io.kestra.plugin.core.log.Log
+        message: "{{ outputs.parse_pdf.result.content }}"
+      - id: ingest_document_with_embeddings
+        type: io.kestra.plugin.ai.rag.IngestDocument
+        provider:
+          type: io.kestra.plugin.ai.provider.GoogleGemini
+          modelName: gemini-embedding-001
+          apiKey: "{{ secret('GEMINI_API_KEY') }}" # Ensure you have a secret named GEMINI_API_KEY configured
+        embeddings:
+          type: io.kestra.plugin.ai.embeddings.KestraKVStore # Using KestraKVStore for demonstration
+        drop: true # Clear the store before ingestion (useful for testing)
+        documentSplitter:
+          splitter: RECURSIVE # Recommended for generic text
+          maxSegmentSizeInChars: 4096
+          maxOverlapSizeInChars: 200
+        fromDocuments:
+          - content: "{{ outputs.parse_pdf.result.content }}" # CORRECTED: Changed 'parse_pdf_content' to 'parse_text'
+
+      - id: chat_with_rag
+        type: io.kestra.plugin.ai.rag.ChatCompletion
+        description: Query about Kestra 1.1 features with RAG context
+        chatProvider:
+          type: io.kestra.plugin.ai.provider.GoogleGemini
+          modelName: gemini-2.5-flash
+          apiKey: "{{ secret('GEMINI_API_KEY') }}"
+        embeddingProvider:
+          type: io.kestra.plugin.ai.provider.GoogleGemini
+          modelName: gemini-embedding-001
+          apiKey: "{{ secret('GEMINI_API_KEY') }}"
+        embeddings:
+          type: io.kestra.plugin.ai.embeddings.KestraKVStore
+        systemMessage: |
+          You are a helpful assistant that answers questions about the ingested document
+          Use the provided documentation to give accurate, specific answers.
+          If you don't find the information in the context, say so.
+        prompt: |
+          what is work?
+
+      - id: log_results
+        type: io.kestra.plugin.core.log.Log
+        message: |
+          ✅ RAG Response (with retrieved context):
+          {{ outputs.chat_with_rag.textOutput }}
+
+      - id: log_token_usage
+        type: io.kestra.plugin.core.log.Log
+        message: |
+          📊 Token Usage Summary:
+
+          Agent:
+            - Input tokens: {{ outputs.chat_with_rag.tokenUsage.inputTokenCount }}
+            - Output tokens: {{ outputs.chat_with_rag.tokenUsage.outputTokenCount }}
+            - Total tokens: {{ outputs.chat_with_rag.tokenUsage.totalTokenCount }}
