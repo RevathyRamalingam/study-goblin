@@ -258,6 +258,23 @@ wheels = [
 ]
 
 [[package]]
+name = "groq"
+version = "1.6.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/67/3e/687064918e861082cb02165872bbda31269126a108a78794dae86ddadae2/groq-1.6.0.tar.gz", hash = "sha256:c4237ecf0053ba85fd926bb31cb4b178996310474b4618867994e3e40d8e3c02", size = 158424, upload-time = "2026-07-24T17:25:49.517Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/20/40/164338d796cf41ea5930a42023e986d8c993720bed670d5aa143e5854873/groq-1.6.0-py3-none-any.whl", hash = "sha256:fa16db582455db324adcff1b5908519474736872e28cd5c8fa2b8bef6860e12a", size = 143693, upload-time = "2026-07-24T17:25:48.2Z" },
+]
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1318,6 +1335,7 @@ dependencies = [
     { name = "fitz" },
     { name = "frontend" },
     { name = "gitsource" },
+    { name = "groq" },
     { name = "langchain-text-splitters" },
     { name = "minsearch" },
     { name = "openai" },
@@ -1331,6 +1349,7 @@ requires-dist = [
     { name = "fitz", specifier = ">=0.0.1.dev2" },
     { name = "frontend", specifier = ">=0.0.3" },
     { name = "gitsource", specifier = ">=0.0.5" },
+    { name = "groq", specifier = ">=1.6.0" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
     { name = "minsearch", specifier = ">=0.2.0" },
     { name = "openai", specifier = ">=2.48.0" },
