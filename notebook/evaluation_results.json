@@ -1,0 +1,242 @@
+[
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      36
+    ],
+    "question": "What happens to the effort required to move the same load if the effort arm is increased?",
+    "expected": "The effort required to move the same load is reduced.",
+    "generated": "If the effort arm is increased, the effort required to move the same load is reduced."
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      34,
+      37
+    ],
+    "question": "How can the mechanical advantage of a lever be calculated?",
+    "expected": "Using Eq. (7.12).",
+    "generated": "The mechanical advantage of a lever can be calculated using Eq. (7.16):\n\nload\neffort arm\nmechanical advantage = \n = \neffort\nload arm"
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      34
+    ],
+    "question": "What is the mechanical advantage of a lever?",
+    "expected": "The ratio of the load arm to the effort arm.",
+    "generated": "According to the context, the mechanical advantage of a lever is equal to the ratio of the distances, i.e., \n\n1\n2\nL\nL ."
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      36
+    ],
+    "question": "What happens to the distance moved by the effort when using a lever to gain a mechanical advantage?",
+    "expected": "The effort has to move by a larger distance.",
+    "generated": "According to the context, when using a lever to gain a mechanical advantage, the distance moved by the effort is increased. This is stated as: \"With the use of a lever, the effort required is generally smaller but it has to move by a larger distance such that the total work done by the agency applying effort remains the same.\""
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      25
+    ],
+    "question": "What are the three classes of levers?",
+    "expected": "They are Class I, Class II, and Class III levers.",
+    "generated": "I'm happy to help you with your question about levers.\n\nThe three classes of levers are:\n\n1. Class I: Effort in between the fulcrum and the load.\n2. Class II: Load in between the fulcrum and the effort.\n3. Class III: Fulcrum in between the effort and the load.\n\nThese classes are shown in Table 7.2 in the provided context."
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      11,
+      21
+    ],
+    "question": "What is the conservation of mechanical energy?",
+    "expected": "The work we put in is equal to the useful work done on the load, ignoring friction.",
+    "generated": "The conservation of mechanical energy is a concept where the total mechanical energy of an isolated system remains constant over time. This means that the sum of the kinetic energy and potential energy of the system does not change, even if the forms of energy change.\n\nIn other words, the mechanical energy of an object is conserved if there are no external forces acting on it, and the only forces acting on it are internal forces such as gravity or friction. This concept is demonstrated in the example where a cricket ball is thrown high into the air, and its potential energy is converted into kinetic energy as it falls back down.\n\nMathematically, this can be represented as:\n\nKinetic Energy + Potential Energy = Constant\n\nor\n\nK + U = Constant\n\nwhere K is the kinetic energy, U is the potential energy, and the constant is the total mechanical energy of the system."
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      3
+    ],
+    "question": "What is a perpetual machine?",
+    "expected": "A machine that uses wheels, weights, or magnets and can continue doing useful work forever without any fuel or electricity.",
+    "generated": "According to the context, a perpetual machine is described as a machine that \"once started, could continue doing useful work forever, without any fuel or electricity.\" However, it is also stated that \"Throughout history, many designs of perpetual machines (using wheels, weights or magnets) have been proposed but none actually work.\" This implies that perpetual machines are hypothetical machines that are thought to be able to operate indefinitely without any external energy source, but they have not been proven to be feasible in reality."
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      33
+    ],
+    "question": "Why do all real machines eventually slow down and stop?",
+    "expected": "Because they do not create energy, they only help us use it more effectively.",
+    "generated": "I'm happy to help you with that question.\n\nAccording to the context, \"Machines do not create energy, they only help us use it more effectively.\" This implies that machines can only transfer energy from one form to another, but they cannot create new energy.\n\nAdditionally, it is stated that \"The work we put in is equal to the useful work done on the load, ignoring friction.\" This means that the energy input into a machine is equal to the energy output, minus any energy lost due to friction.\n\nSince machines cannot create new energy, and the energy input is equal to the energy output minus friction, all real machines will eventually slow down and stop due to the loss of energy to friction."
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      3
+    ],
+    "question": "Why is it easier to open the lid of a can by using a spoon?",
+    "expected": "Because it helps to use the energy more effectively.",
+    "generated": "I'm sorry, I couldn't find information about why it's easier to open the lid of a can by using a spoon in the provided context. However, I can help answer questions related to the uploaded textbook or course content. Feel free to ask another question!\n\nHowever, I can try to make an educated guess based on the context. The context mentions simple machines and levers, but it doesn't directly explain why a spoon is used to open a can. However, I can suggest that the spoon might be used as a lever to pry open the can, with the effort (force) applied at one end of the spoon and the load (can lid) at the other end. This could be an example of a Class I lever, where the fulcrum is in between the effort and the load. But this is just a guess, and I couldn't find any direct information in the provided context."
+  },
+  {
+    "ground_truth_chunk_id": 1,
+    "retrieved_chunks": [
+      2,
+      1
+    ],
+    "question": "Why does applying a larger force over the same distance allow you to proportionally do more work?",
+    "expected": "This shows that applying a larger force over the same distance allows you to proportionally do more work.",
+    "generated": "Applying a larger force over the same distance lets you do proportionally more work because, by definition, the work done by a constant force is the product of that force and the displacement in the direction of the force:\n\n\\[\n\\text{work} = \\text{force} \\times \\text{displacement}.\n\\]\n\nIn the examples from the text, lifting one 5 kg bag a height of 1 m requires a force equal to its weight (mg) and does an amount of work \\(W = mg \\times 1\\text{ m}\\).  \n\nIf you lift three bags together, you must apply a force three times larger (3 mg) while the vertical displacement remains 1 m. The work then becomes\n\n\\[\nW' = (3\\,mg) \\times 1\\text{ m} = 3\\,W,\n\\]\n\nwhich is three times the work needed for a single bag.  \n\nThus, when the distance moved does not change, increasing the applied force multiplies the work by the same factor, giving a proportional increase. This follows directly from the definition \\(W = F \\times s\\)."
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      1,
+      2
+    ],
+    "question": "What is the work done by a force required to lift a single 5 kg bag of wheat by 1 m?",
+    "expected": "The work required to lift the same bag by 1 m is not explicitly stated, but it can be inferred that it is equal to the work done by the force required to lift 1 bag.",
+    "generated": "**Answer:** The work done is **49 J**.\n\n**Reasoning (using the given context)**  \n\n1. **Force needed to lift the bag**  \n   - The bag’s mass \\(m = 5\\ \\text{kg}\\).  \n   - To lift it slowly, the upward force must equal its weight \\(mg\\).  \n   - Using the standard acceleration due to gravity \\(g \\approx 9.8\\ \\text{m/s}^2\\):  \n     \\[\n     F = mg = 5\\ \\text{kg} \\times 9.8\\ \\text{m/s}^2 = 49\\ \\text{N}.\n     \\]\n\n2. **Work definition (from the text)**  \n   - The work done by a constant force acting in the direction of the displacement is  \n     \\[\n     W = F \\times s,\n     \\]\n     where \\(s\\) is the displacement.\n\n3. **Apply the formula**  \n   - Displacement (height lifted) \\(s = 1\\ \\text{m}\\).  \n   - Therefore  \n     \\[\n     W = 49\\ \\text{N} \\times 1\\ \\text{m} = 49\\ \\text{J}.\n     \\]\n\nSo, lifting a single 5 kg bag of wheat by 1 m requires **49 joules of work**."
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      1,
+      2
+    ],
+    "question": "What is the work done by a force required to lift a single 5 kg bag of wheat to a height of 3 m?",
+    "expected": "You would have carried out 3 times more work as compared to the work required to lift the same bag by 1 m.",
+    "generated": "**Answer**\n\nThe work done by the force needed to lift a single 5 kg bag of wheat to a height of 3 m is  \n\n\\[\n\\boxed{147\\ \\text{J}}\n\\]\n\n**Reasoning (using the given context)**  \n\n1. **Definition of work** – The textbook states that for a constant force acting in the direction of the displacement,  \n\n\\[\n\\text{work } (W) = \\text{force } (F) \\times \\text{displacement } (s) .\n\\]\n\n2. **Force required to lift the bag** – To lift the bag slowly (so that there is no acceleration), the upward force you must apply equals the weight of the bag:\n\n\\[\nF = mg ,\n\\]\n\nwhere  \n\\(m = 5\\ \\text{kg}\\) (mass of the bag) and  \n\\(g \\approx 9.8\\ \\text{m s}^{-2}\\) (standard acceleration due to gravity).\n\nThus  \n\n\\[\nF = 5\\ \\text{kg} \\times 9.8\\ \\text{m s}^{-2} = 49\\ \\text{N}.\n\\]\n\n3. **Displacement** – The bag is lifted vertically through a distance  \n\n\\[\ns = 3\\ \\text{m}.\n\\]\n\n4. **Calculate the work**  \n\n\\[\nW = F \\times s = 49\\ \\text{N} \\times 3\\ \\text{m} = 147\\ \\text{J}.\n\\]\n\nThe text also notes that lifting the same bag to 3 m does three times as much work as lifting it 1 m (since the displacement is three times larger). For 1 m the work would be \\(49\\ \\text{J}\\); for 3 m it is \\(3 \\times 49\\ \\text{J} = 147\\ \\text{J}\\).\n\nHence, the required work is **147 joules**."
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      3,
+      2
+    ],
+    "question": "What is the scientific definition of work done by a force?",
+    "expected": "The work done by a constant force acting on an object in bringing about a certain displacement can be defined as: work done on an object by a constant force = force applied × displacement in the direction of the force.",
+    "generated": "**Scientific definition of work done by a force**\n\nThe work done on an object by a **constant** force is defined as the product of the magnitude of the force and the displacement of the object **in the direction of that force**.\n\n\\[\n\\boxed{W = F \\times s}\n\\]\n\nwhere  \n\n- \\(W\\) = work done (measured in joules, J)  \n- \\(F\\) = applied force (newtons, N)  \n- \\(s\\) = displacement of the object in the direction of the force (metres, m)\n\n**Key points from the context**\n\n1. **Units** – 1 J = 1 N × 1 m = 1 kg·m²·s⁻².  \n2. **Direction matters** – Only the component of the displacement that is **along** the force contributes to work. If the force is perpendicular to the displacement, the work is zero.  \n3. **Zero work conditions** –  \n   - If the force is zero (\\(F = 0\\)), no work is done.  \n   - If there is no displacement (\\(s = 0\\)), no work is done, even if a force is applied (e.g., pushing against a rigid wall).  \n4. **Variable forces** – When the force is not constant, work can still be found as the area under a force‑displacement graph between the initial and final positions.  \n\nThus, the scientific definition of work done by a force is succinctly captured by the equation \\(W = F \\times s\\), with the understanding that both the force and the displacement must be in the same direction for the work to be non‑zero."
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      2,
+      3
+    ],
+    "question": "What happens to the work done when the same force is applied over a larger distance?",
+    "expected": "Applying the same force over a larger distance allows you to proportionally do more work.",
+    "generated": "When the force stays the same but the displacement becomes larger, the amount of work increases in direct proportion to that distance.  \n\nFrom the definition of work for a constant force  \n\n\\[\nW = F \\times s\n\\]\n\nwhere \\(F\\) is the applied force and \\(s\\) is the displacement in the direction of the force.  \nIf \\(F\\) is unchanged and \\(s\\) is made larger, the product \\(F \\times s\\) grows accordingly. For example, lifting a bag 3 m with the same force requires three times as much work as lifting it 1 m. Thus, applying the same force over a larger distance allows you to do proportionally more work."
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      3,
+      2
+    ],
+    "question": "What is the formula for calculating the work done by a constant force acting on an object?",
+    "expected": "The formula is: work done on an object by a constant force = force applied × displacement in the direction of the force.",
+    "generated": "The work done by a constant force on an object is given by  \n\n\\[\n\\boxed{W = F \\times s}\n\\]\n\nwhere **\\(F\\)** is the magnitude of the constant force and **\\(s\\)** is the displacement of the object in the direction of that force. (See Eq. 7.2 in the provided material.)"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      8
+    ],
+    "question": "What is the SI unit of work done?",
+    "expected": "The SI unit of work done is joule, represented by J.",
+    "generated": "The SI unit of work done is joule, which is represented by J."
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      27
+    ],
+    "question": "How is 1 joule of work defined?",
+    "expected": "1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force.",
+    "generated": "1 joule of work is defined as the work done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force. This can be represented as 1 J = 1 N × 1 m."
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      2
+    ],
+    "question": "What is the definition of work done?",
+    "expected": "Work done is defined as the product of force and displacement in the direction of the force.",
+    "generated": "The definition of work done is: work done on an object by a constant force = force applied × displacement in the direction of the force. This can be represented by the equation: W = F × s, where W is the work done, F is the force applied, and s is the displacement in the direction of the force."
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      4
+    ],
+    "question": "When is work done equal to zero?",
+    "expected": "Work done is equal to zero if the force acting on an object is zero, or if there is no displacement of the object, regardless of the force being applied.",
+    "generated": "Work done is equal to zero in the following situations:\n\n1. When the force acting on an object is zero (F = 0).\n2. When there is no displacement of the object (s = 0), regardless of the force being applied.\n3. When a force acts in a direction perpendicular to the displacement of an object."
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      4
+    ],
+    "question": "How can the work done on an object be calculated when the force is not constant?",
+    "expected": "The work done on an object can be calculated by finding the area under the force-displacement graph between the initial and the final positions.",
+    "generated": "When the force is not constant, the work done on an object can still be calculated by finding the area under the force-displacement graph between the initial and the final positions."
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      3,
+      4
+    ],
+    "question": "What happens to the work done on an object if the force acting on it is zero?",
+    "expected": "No work is done on the object.",
+    "generated": "If the force acting on an object is zero, then no work is done on the object. This is based on the definition of work done, which states that work done is equal to the force applied multiplied by the displacement in the direction of the force. If the force is zero, then the work done is also zero, regardless of the displacement."
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      4,
+      3
+    ],
+    "question": "What happens to the work done on an object if there is no displacement of the object?",
+    "expected": "The work done on the object is also zero, regardless of the force being applied on it.",
+    "generated": "weight, but the box remains stationary, so the work done is zero. In summary, work done is equal to zero when:\n\n1. The force acting on an object is zero.\n2. The displacement of the object is zero.\n3. The force is perpendicular to the displacement of the object. "
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      3,
+      13
+    ],
+    "question": "What is the definition of work in the context of physics?",
+    "expected": "Work is the product of the force applied to an object and the displacement of the object in the direction of the force.",
+    "generated": "In the context provided, the definition of work done (W) is given as:\n\nW = F × s\n\nThe SI unit of work is the joule (J). The kinetic energy is directly proportional to the magnitude of the velocity. When positive work is done on an object, its kinetic energy increases. If negative work is done on the object, its kinetic energy decreases. If no work is done on the object (W = 0), its kinetic energy remains constant.\n\nGiven the context, let's answer your questions:\n\n1. If the velocity of a vehicle doubles in magnitude, its kinetic energy will be four times the previous value.\n2. In Example 7.5, the definition of work done (W) is given as W = F × s.\n\nPlease provide more specific questions or concerns related to the context, and I will be happy to help you further. "
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      4,
+      3
+    ],
+    "question": "Why do you feel tired when applying a force to an object, even if you haven't done any work on it?",
+    "expected": "You feel tired because the muscles in your body repeatedly expand and contract, and use up the internal energy of your body.",
+    "generated": "weight, but the box moves horizontally, so the work done is zero. In this case, you may feel tired due to the energy used by your muscles to lift the box vertically, even though no work has been done on the box in the direction of the force. \n\nWhen work is zero, the equation for work done (Eq. 7.2) becomes:\n\nWork done = Force × Displacement × cos(θ)\n\nIn the context provided, when the force and displacement are perpendicular to each other, the cosine of the angle (θ) is 0, resulting in a zero work done. This can explain why you might feel tired even though no work has been done on the object. \n\nPlease provide more specific questions or consult your textbook for further information on work done and its relationship with force, displacement, and cosine of the angle between them. "
+  }
+]

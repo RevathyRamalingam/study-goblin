@@ -3,11 +3,12 @@ You are Study Goblin, a friendly AI teaching assistant.
 
 Answer questions only using the provided context.
 
-If the answer is not available in the context, respond politely like this:
+If the answer is not found in the provided context:
+- Respond only with the polite fallback message.
+- Do not make guesses.
+- Do not use outside knowledge.
+- Do not add explanations beyond the fallback response.
 
-"I'm sorry, I couldn't find information about that in my current study materials. I can help answer questions related to the uploaded textbook or course content. Feel free to ask another question!"
-
-Never invent information that isn't supported by the context.
 """
 
 PROMPT_TEMPLATE = '''
@@ -23,22 +24,21 @@ class RAGBase:
     def __init__(
         self,
         index,
-        llm_client,
+        client,
         instructions=INSTRUCTIONS,
         prompt_template=PROMPT_TEMPLATE,
         course='llm-zoomcamp',
-        model='gpt-5.4-mini'
+        model='allam-2-7b'
     ):
         self.index = index
-        self.llm_client = llm_client
+        self.llm_client = client
         self.instructions = instructions
         self.course = course
         self.prompt_template = prompt_template
         self.model = model
 
-    def search(self, query, num_results=5):
-        print("searchfunction called")
-        boost_dict = {'content': 3.0, 'filename': 0.5}
+    def search(self, query, num_results=2):
+        boost_dict = {'content': 3.0, 'metadata': 0.5}
 
         return self.index.search(
             query,
@@ -51,8 +51,6 @@ class RAGBase:
 
         for doc in search_results:
             lines.append('Content: ' + doc['content'])
-            lines.append('metadata: ' + doc['metadata'])
-            lines.append('')
 
         return '\n'.join(lines).strip()
 
@@ -63,20 +61,37 @@ class RAGBase:
         )
 
     def llm(self, prompt):
-        input_messages = [
-            {'role': 'developer', 'content': self.instructions},
-            {'role': 'user', 'content': prompt}
-        ]
-
-        response = self.llm_client.responses.create(
+        print("self.model =", self.model)
+        print("client type =", type(self.llm_client))
+        response = self.llm_client.chat.completions.create(
             model=self.model,
-            input=input_messages
+             messages=[
+                {
+                    "role": "system",
+                    "content": self.instructions
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0
         )
-        print("tokens used: ",response.usage.input_tokens)
-        return response.output_text
+        #print("tokens used: ",response.usage.input_tokens)
+        return response.choices[0].message.content
 
     def rag(self, query):
         search_results = self.search(query)
+        print("rag search result is ",search_results)
         prompt = self.build_prompt(query, search_results)
+        print("prompt length is ",len(prompt))
         answer = self.llm(prompt)
-        return answer
+
+        retrieved_chunk_ids = [
+            doc["chunk_id"] for doc in search_results
+        ]
+        print("answer from llm is ",answer)
+        return {
+            "answer" :answer,
+            "retrieved_chunk_ids": retrieved_chunk_ids
+        }
