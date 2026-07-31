@@ -1,0 +1,170 @@
+id: study_goblin_ingestion
+namespace: company.team
+description: Download NCERT PDFs, extract text, and build chunked ingestion data for Study Goblin
+
+tasks:
+  - id: download_pdfs
+    type: io.kestra.plugin.scripts.python.Script
+    runner: PROCESS
+    beforeCommands:
+      - pip install requests pymupdf
+    script: |
+      import os
+      import time
+      import urllib3
+      import requests
+
+      urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+      output_dir = "data/raw/ncert_pdfs"
+      os.makedirs(output_dir, exist_ok=True)
+
+      headers = {"User-Agent": "Mozilla/5.0"}
+      chapters = ["iesc107"]
+
+      for chapter in chapters:
+          url = f"https://ncert.nic.in/textbook/pdf/{chapter}.pdf"
+          target_path = os.path.join(output_dir, f"{chapter}.pdf")
+
+          for attempt in range(3):
+              try:
+                  response = requests.get(url, headers=headers, verify=False, timeout=130)
+                  if response.status_code == 200:
+                      with open(target_path, "wb") as f:
+                          f.write(response.content)
+                      print(f"Downloaded {target_path}")
+                      break
+              except Exception as exc:
+                  if attempt == 2:
+                      raise RuntimeError(f"Failed to download {chapter}: {exc}")
+                  time.sleep(3)
+
+    outputFiles:
+      - "data/raw/ncert_pdfs/*.pdf"
+
+  - id: extract_and_chunk
+    type: io.kestra.plugin.scripts.python.Script
+    runner: PROCESS
+    dependsOn:
+      - download_pdfs
+    beforeCommands:
+      - pip install pymupdf gitsource
+    script: |
+      import json
+      import os
+      import fitz
+      from gitsource import chunk_documents
+
+      def is_valid_heading(text):
+          if not text:
+              return False
+
+          if text.isdigit():
+              return False
+
+          if len(text) > 80:
+              return False
+
+          if text.startswith(("Fig.", "Table", "Example", "Answer")):
+              return False
+
+          if text.startswith(("•", "✓", "y")):
+              return False
+
+          return True
+
+      def read_pdf(pdf_path):
+          doc = fitz.open(pdf_path)
+          documents = []
+
+          current_chapter_number = ""
+          current_chapter_title = ""
+          current_section = ""
+          current_subsection = ""
+
+          for page_num in range(len(doc)):
+              page = doc[page_num]
+              page_text = page.get_text("text")
+              blocks = page.get_text("dict")["blocks"]
+
+              chapter_title_parts = []
+              section_parts = []
+              subsection_parts = []
+
+              for block in blocks:
+                  for line in block.get("lines", []):
+                      text = " ".join(
+                          span["text"].strip()
+                          for span in line["spans"]
+                          if span["text"].strip()
+                      )
+
+                      if not text:
+                          continue
+
+                      size = max((span["size"] for span in line["spans"]), default=0)
+
+                      if size >= 60:
+                          current_chapter_number = text
+                      elif size >= 25:
+                          chapter_title_parts.append(text)
+                      elif 20 <= size < 25 and text.lower() == "chapter":
+                          continue
+                      elif 14 <= size < 20:
+                          if is_valid_heading(text):
+                              section_parts.append(text)
+                      elif 12 <= size < 14:
+                          if is_valid_heading(text):
+                              subsection_parts.append(text)
+
+                      if section_parts:
+                          current_section = " ".join(section_parts)
+
+                      if subsection_parts:
+                          current_subsection = " ".join(subsection_parts)
+
+              if chapter_title_parts:
+                  current_chapter_title = " ".join(chapter_title_parts).strip()
+
+              documents.append({
+                  "content": page_text,
+                  "metadata": {
+                      "page": page_num + 1,
+                      "chapter_number": current_chapter_number,
+                      "chapter_title": current_chapter_title,
+                      "section": current_section,
+                      "callout": current_subsection,
+                      "source": pdf_path,
+                  },
+              })
+
+          return documents
+
+      input_dir = "data/raw/ncert_pdfs"
+      output_dir = "data/processed"
+      os.makedirs(output_dir, exist_ok=True)
+
+      input_path = os.path.join(input_dir, "iesc107.pdf")
+      output_path = os.path.join(output_dir, "chunks.json")
+
+      if not os.path.exists(input_path):
+          raise FileNotFoundError(f"Missing PDF: {input_path}")
+
+      documents = read_pdf(input_path)
+      doc_chunks = chunk_documents(documents, 2000, 1000)
+
+      with open(output_path, "w", encoding="utf-8") as f:
+          json.dump(doc_chunks, f, indent=2, ensure_ascii=False)
+
+      print(f"Created {len(doc_chunks)} chunks at {output_path}")
+
+    outputFiles:
+      - "data/processed/chunks.json"
+
+  - id: log_summary
+    type: io.kestra.plugin.core.log.Log
+    dependsOn:
+      - extract_and_chunk
+    message: |
+      Ingestion pipeline completed.
+      Chunks are available in data/processed/chunks.json

@@ -1,2 +1,7 @@
 requests
-pymupdf
+streamlit
+python-dotenv
+openai
+minsearch
+sentence-transformers
+nltk

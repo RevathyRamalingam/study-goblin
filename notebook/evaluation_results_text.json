@@ -1,0 +1,3330 @@
+[
+  {
+    "ground_truth_chunk_id": 0,
+    "retrieved_chunks": [
+      8,
+      3,
+      39,
+      2,
+      41,
+      4,
+      27,
+      20,
+      9,
+      5
+    ],
+    "question": "What is the capacity to do work?"
+  },
+  {
+    "ground_truth_chunk_id": 0,
+    "retrieved_chunks": [
+      25,
+      0,
+      11,
+      21,
+      12,
+      8,
+      42,
+      13,
+      20,
+      22
+    ],
+    "question": "What is the source of energy for a child to walk?"
+  },
+  {
+    "ground_truth_chunk_id": 0,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      8,
+      38,
+      39,
+      13,
+      5,
+      11,
+      27
+    ],
+    "question": "What is work?"
+  },
+  {
+    "ground_truth_chunk_id": 0,
+    "retrieved_chunks": [
+      0,
+      27,
+      28,
+      8,
+      44,
+      11,
+      12,
+      9,
+      19,
+      21
+    ],
+    "question": "How can we use the ideas of work, energy, and power to analyse motion and interactions more easily?"
+  },
+  {
+    "ground_truth_chunk_id": 1,
+    "retrieved_chunks": [
+      1,
+      2,
+      3,
+      8,
+      4,
+      5,
+      27,
+      28,
+      20,
+      29
+    ],
+    "question": "How much more work is done to lift 3 bags to the same height compared to lifting 1 bag?"
+  },
+  {
+    "ground_truth_chunk_id": 1,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      1,
+      5,
+      6,
+      13,
+      7,
+      8,
+      20
+    ],
+    "question": "What is the scientific definition of work done by a force?"
+  },
+  {
+    "ground_truth_chunk_id": 1,
+    "retrieved_chunks": [
+      1,
+      2,
+      41,
+      3,
+      38,
+      8,
+      29,
+      4,
+      9,
+      13
+    ],
+    "question": "What happens if the same machine is used three times in succession to lift the bag by 1 m each time?"
+  },
+  {
+    "ground_truth_chunk_id": 1,
+    "retrieved_chunks": [
+      2,
+      1,
+      0,
+      4,
+      6,
+      5,
+      3,
+      8,
+      34,
+      17
+    ],
+    "question": "Why does applying a larger force over the same distance allow you to proportionally do more work?"
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      27,
+      28,
+      8
+    ],
+    "question": "What is the work done by a force required to lift a single 5 kg bag of wheat by 1 m?"
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      20,
+      21,
+      6,
+      27,
+      41
+    ],
+    "question": "What is the work done by a force required to lift a single 5 kg bag of wheat to a height of 3 m?"
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      1,
+      5,
+      6,
+      13,
+      7,
+      8,
+      20
+    ],
+    "question": "What is the scientific definition of work done by a force?"
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      2,
+      3,
+      4,
+      1,
+      5,
+      8,
+      6,
+      41,
+      35,
+      34
+    ],
+    "question": "What happens to the work done when the same force is applied over a larger distance?"
+  },
+  {
+    "ground_truth_chunk_id": 2,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      8,
+      5,
+      13,
+      6,
+      1,
+      9,
+      7
+    ],
+    "question": "What is the formula for calculating the work done by a constant force acting on an object?"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      8,
+      13,
+      4,
+      9,
+      20,
+      2,
+      28,
+      14,
+      27
+    ],
+    "question": "What is the SI unit of work done?"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      27,
+      28,
+      40,
+      39,
+      13,
+      2,
+      4,
+      14,
+      8
+    ],
+    "question": "How is 1 joule of work defined?"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      2,
+      13,
+      4,
+      8,
+      40,
+      20,
+      42,
+      5,
+      6
+    ],
+    "question": "What is the definition of work done?"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      4,
+      5,
+      8,
+      2,
+      28,
+      39,
+      1,
+      7,
+      6
+    ],
+    "question": "When is work done equal to zero?"
+  },
+  {
+    "ground_truth_chunk_id": 3,
+    "retrieved_chunks": [
+      3,
+      4,
+      8,
+      2,
+      5,
+      13,
+      6,
+      9,
+      20,
+      7
+    ],
+    "question": "How can the work done on an object be calculated when the force is not constant?"
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      3,
+      4,
+      8,
+      2,
+      5,
+      13,
+      6,
+      7,
+      9,
+      20
+    ],
+    "question": "What happens to the work done on an object if the force acting on it is zero?"
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      4,
+      3,
+      8,
+      5,
+      13,
+      2,
+      20,
+      6,
+      21,
+      9
+    ],
+    "question": "What happens to the work done on an object if there is no displacement of the object?"
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      3,
+      13,
+      43,
+      40,
+      42,
+      20,
+      41,
+      25,
+      15,
+      21
+    ],
+    "question": "What is the definition of work in the context of physics?"
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      4,
+      3,
+      2,
+      1,
+      5,
+      8,
+      38,
+      6,
+      7,
+      17
+    ],
+    "question": "Why do you feel tired when applying a force to an object, even if you haven't done any work on it?"
+  },
+  {
+    "ground_truth_chunk_id": 4,
+    "retrieved_chunks": [
+      5,
+      4,
+      3,
+      2,
+      6,
+      8,
+      7,
+      1,
+      18,
+      9
+    ],
+    "question": "What happens to the work done by a force on an object when the force and displacement are perpendicular to each other?"
+  },
+  {
+    "ground_truth_chunk_id": 5,
+    "retrieved_chunks": [
+      5,
+      4,
+      18,
+      3,
+      17,
+      6,
+      2,
+      7,
+      8,
+      41
+    ],
+    "question": "What happens when the force and displacement are perpendicular to each other?"
+  },
+  {
+    "ground_truth_chunk_id": 5,
+    "retrieved_chunks": [
+      4,
+      5,
+      3,
+      2,
+      8,
+      6,
+      7,
+      1,
+      39,
+      13
+    ],
+    "question": "What is the condition for work done by a force on an object to be positive?"
+  },
+  {
+    "ground_truth_chunk_id": 5,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      8,
+      38,
+      39,
+      13,
+      5,
+      11,
+      27
+    ],
+    "question": "What is work?"
+  },
+  {
+    "ground_truth_chunk_id": 5,
+    "retrieved_chunks": [
+      3,
+      4,
+      5,
+      6,
+      2,
+      41,
+      7,
+      20,
+      40,
+      9
+    ],
+    "question": "What happens when the displacement is in the same direction as the applied force?"
+  },
+  {
+    "ground_truth_chunk_id": 5,
+    "retrieved_chunks": [
+      5,
+      4,
+      3,
+      6,
+      2,
+      8,
+      7,
+      1,
+      9,
+      13
+    ],
+    "question": "How can the work done by a force on an object be negative?"
+  },
+  {
+    "ground_truth_chunk_id": 6,
+    "retrieved_chunks": [
+      6,
+      4,
+      5,
+      3,
+      2,
+      1,
+      7,
+      41,
+      8,
+      20
+    ],
+    "question": "When you push a wheelchair, what happens to the force applied by you and the displacement?"
+  },
+  {
+    "ground_truth_chunk_id": 6,
+    "retrieved_chunks": [
+      6,
+      3,
+      4,
+      5,
+      7,
+      2,
+      41,
+      43,
+      20,
+      40
+    ],
+    "question": "What happens when the displacement is in the direction opposite to that of the force?"
+  },
+  {
+    "ground_truth_chunk_id": 6,
+    "retrieved_chunks": [
+      5,
+      4,
+      6,
+      3,
+      7,
+      8,
+      39,
+      2,
+      9,
+      13
+    ],
+    "question": "What is positive work?"
+  },
+  {
+    "ground_truth_chunk_id": 6,
+    "retrieved_chunks": [
+      6,
+      7,
+      5,
+      4,
+      3,
+      8,
+      9,
+      10,
+      27,
+      0
+    ],
+    "question": "A girl lifts a dumbbell and slowly lowers it down. When does she do positive work on the dumbbell?"
+  },
+  {
+    "ground_truth_chunk_id": 6,
+    "retrieved_chunks": [
+      7,
+      6,
+      3,
+      8,
+      4,
+      2,
+      19,
+      20,
+      42,
+      5
+    ],
+    "question": "A goalkeeper applies a force of 200 N to stop a ball while moving her hand back by 15 cm. What is the work done by the goalkeeper on the ball?"
+  },
+  {
+    "ground_truth_chunk_id": 7,
+    "retrieved_chunks": [
+      6,
+      7,
+      3,
+      4,
+      5,
+      1,
+      2,
+      20,
+      41,
+      8
+    ],
+    "question": "What is the force applied by the girl to lift the dumbbell?"
+  },
+  {
+    "ground_truth_chunk_id": 7,
+    "retrieved_chunks": [
+      7,
+      6,
+      8,
+      3,
+      20,
+      19,
+      4,
+      42,
+      2,
+      43
+    ],
+    "question": "What is the work done by the goalkeeper on the ball when stopping it?"
+  },
+  {
+    "ground_truth_chunk_id": 7,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      8,
+      38,
+      39,
+      13,
+      5,
+      11,
+      27
+    ],
+    "question": "What is work?"
+  },
+  {
+    "ground_truth_chunk_id": 7,
+    "retrieved_chunks": [
+      7,
+      6,
+      19,
+      42,
+      20,
+      43,
+      41,
+      3,
+      8,
+      9
+    ],
+    "question": "What happens when the goalkeeper applies a force opposite to the motion of the ball?"
+  },
+  {
+    "ground_truth_chunk_id": 8,
+    "retrieved_chunks": [
+      3,
+      4,
+      8,
+      5,
+      39,
+      2,
+      11,
+      6,
+      1,
+      32
+    ],
+    "question": "What happens to an object when a force is applied and it is displaced?"
+  },
+  {
+    "ground_truth_chunk_id": 8,
+    "retrieved_chunks": [
+      3,
+      13,
+      8,
+      9,
+      11,
+      20,
+      14,
+      12,
+      39,
+      40
+    ],
+    "question": "What is the SI unit of energy?"
+  },
+  {
+    "ground_truth_chunk_id": 8,
+    "retrieved_chunks": [
+      11,
+      12,
+      39,
+      13,
+      8,
+      24,
+      14,
+      23,
+      21,
+      40
+    ],
+    "question": "What is energy?"
+  },
+  {
+    "ground_truth_chunk_id": 8,
+    "retrieved_chunks": [
+      8,
+      9,
+      4,
+      11,
+      3,
+      12,
+      39,
+      2,
+      13,
+      20
+    ],
+    "question": "How does the work-energy theorem relate to work done on an object?"
+  },
+  {
+    "ground_truth_chunk_id": 8,
+    "retrieved_chunks": [
+      8,
+      21,
+      20,
+      22,
+      11,
+      3,
+      41,
+      12,
+      39,
+      19
+    ],
+    "question": "What happens to the energy of an object when it is raised to a height?"
+  },
+  {
+    "ground_truth_chunk_id": 9,
+    "retrieved_chunks": [
+      8,
+      9,
+      10,
+      19,
+      20,
+      43,
+      41,
+      42,
+      6,
+      7
+    ],
+    "question": "What happens when the ball hits the wickets in a game of carrom?"
+  },
+  {
+    "ground_truth_chunk_id": 9,
+    "retrieved_chunks": [
+      8,
+      3,
+      9,
+      13,
+      4,
+      11,
+      12,
+      39,
+      14,
+      20
+    ],
+    "question": "What is the relation between work done on an object and its energy?"
+  },
+  {
+    "ground_truth_chunk_id": 9,
+    "retrieved_chunks": [
+      8,
+      11,
+      9,
+      12,
+      13,
+      39,
+      20,
+      19,
+      3,
+      40
+    ],
+    "question": "What is the work-energy theorem?"
+  },
+  {
+    "ground_truth_chunk_id": 9,
+    "retrieved_chunks": [
+      9,
+      12,
+      11,
+      10,
+      8,
+      13,
+      14,
+      16,
+      17,
+      15
+    ],
+    "question": "How can energy be transferred without direct contact?"
+  },
+  {
+    "ground_truth_chunk_id": 10,
+    "retrieved_chunks": [
+      9,
+      10,
+      19,
+      20,
+      8,
+      44,
+      43,
+      42,
+      21,
+      13
+    ],
+    "question": "How does the Sun's energy reach the Earth?"
+  },
+  {
+    "ground_truth_chunk_id": 10,
+    "retrieved_chunks": [
+      8,
+      3,
+      13,
+      9,
+      11,
+      14,
+      39,
+      20,
+      12,
+      40
+    ],
+    "question": "What is the SI unit of work and energy?"
+  },
+  {
+    "ground_truth_chunk_id": 10,
+    "retrieved_chunks": [
+      11,
+      12,
+      44,
+      8,
+      13,
+      23,
+      21,
+      9,
+      24,
+      22
+    ],
+    "question": "What is the relationship between mechanical energy and thermal energy?"
+  },
+  {
+    "ground_truth_chunk_id": 10,
+    "retrieved_chunks": [
+      10,
+      9,
+      8,
+      41,
+      21,
+      44,
+      13,
+      20,
+      11,
+      43
+    ],
+    "question": "What happens to the energy of the striker in a carrom shot?"
+  },
+  {
+    "ground_truth_chunk_id": 11,
+    "retrieved_chunks": [
+      11,
+      12,
+      24,
+      9,
+      8,
+      13,
+      14,
+      44,
+      38,
+      21
+    ],
+    "question": "What forms does muscular energy appear as when pedaling a bicycle on a flat road?"
+  },
+  {
+    "ground_truth_chunk_id": 11,
+    "retrieved_chunks": [
+      12,
+      11,
+      39,
+      8,
+      21,
+      22,
+      13,
+      9,
+      3,
+      20
+    ],
+    "question": "What is the energy possessed by an object due to its motion?"
+  },
+  {
+    "ground_truth_chunk_id": 11,
+    "retrieved_chunks": [
+      11,
+      12,
+      23,
+      22,
+      21,
+      24,
+      39,
+      13,
+      8,
+      14
+    ],
+    "question": "What is mechanical energy?"
+  },
+  {
+    "ground_truth_chunk_id": 11,
+    "retrieved_chunks": [
+      11,
+      12,
+      21,
+      22,
+      23,
+      17,
+      24,
+      13,
+      14,
+      8
+    ],
+    "question": "How can you quantify mechanical energy?"
+  },
+  {
+    "ground_truth_chunk_id": 12,
+    "retrieved_chunks": [
+      11,
+      12,
+      14,
+      13,
+      39,
+      24,
+      23,
+      8,
+      21,
+      22
+    ],
+    "question": "What is kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 12,
+    "retrieved_chunks": [
+      12,
+      11,
+      13,
+      14,
+      39,
+      8,
+      25,
+      22,
+      21,
+      20
+    ],
+    "question": "What is the initial kinetic energy of an object that starts from rest?"
+  },
+  {
+    "ground_truth_chunk_id": 12,
+    "retrieved_chunks": [
+      3,
+      4,
+      2,
+      5,
+      8,
+      6,
+      1,
+      13,
+      7,
+      39
+    ],
+    "question": "What is the formula for work done by a force on an object?"
+  },
+  {
+    "ground_truth_chunk_id": 12,
+    "retrieved_chunks": [
+      8,
+      3,
+      4,
+      2,
+      12,
+      5,
+      11,
+      39,
+      9,
+      20
+    ],
+    "question": "How is the work done by a force related to the energy gained by an object?"
+  },
+  {
+    "ground_truth_chunk_id": 12,
+    "retrieved_chunks": [
+      13,
+      3,
+      8,
+      11,
+      12,
+      20,
+      4,
+      39,
+      9,
+      2
+    ],
+    "question": "What is the relationship between the work done by a force and the change in kinetic energy of an object?"
+  },
+  {
+    "ground_truth_chunk_id": 13,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      5,
+      6,
+      1,
+      13,
+      8,
+      7,
+      20
+    ],
+    "question": "What is the equation for the work done by a constant force?"
+  },
+  {
+    "ground_truth_chunk_id": 13,
+    "retrieved_chunks": [
+      13,
+      12,
+      11,
+      8,
+      20,
+      14,
+      21,
+      39,
+      3,
+      22
+    ],
+    "question": "What is the equation for the kinetic energy of an object?"
+  },
+  {
+    "ground_truth_chunk_id": 13,
+    "retrieved_chunks": [
+      3,
+      13,
+      40,
+      2,
+      43,
+      20,
+      41,
+      42,
+      8,
+      25
+    ],
+    "question": "What is the definition of work?"
+  },
+  {
+    "ground_truth_chunk_id": 13,
+    "retrieved_chunks": [
+      8,
+      3,
+      4,
+      11,
+      12,
+      13,
+      5,
+      39,
+      14,
+      9
+    ],
+    "question": "What happens to the kinetic energy of an object when positive work is done on it?"
+  },
+  {
+    "ground_truth_chunk_id": 14,
+    "retrieved_chunks": [
+      13,
+      12,
+      14,
+      11,
+      39,
+      3,
+      8,
+      20,
+      9,
+      25
+    ],
+    "question": "What is the SI unit of kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 14,
+    "retrieved_chunks": [
+      11,
+      12,
+      14,
+      13,
+      39,
+      24,
+      21,
+      23,
+      9,
+      16
+    ],
+    "question": "Does kinetic energy have a direction?"
+  },
+  {
+    "ground_truth_chunk_id": 14,
+    "retrieved_chunks": [
+      11,
+      12,
+      14,
+      13,
+      39,
+      24,
+      23,
+      8,
+      21,
+      22
+    ],
+    "question": "What is kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 14,
+    "retrieved_chunks": [
+      14,
+      13,
+      12,
+      11,
+      21,
+      8,
+      22,
+      39,
+      9,
+      25
+    ],
+    "question": "What happens to the kinetic energy of an object when its velocity doubles in magnitude?"
+  },
+  {
+    "ground_truth_chunk_id": 14,
+    "retrieved_chunks": [
+      14,
+      11,
+      12,
+      19,
+      42,
+      13,
+      21,
+      43,
+      20,
+      8
+    ],
+    "question": "What is the kinetic energy of a 0.2 kg cricket ball traveling at 43 m s–1?"
+  },
+  {
+    "ground_truth_chunk_id": 15,
+    "retrieved_chunks": [
+      15,
+      16,
+      41,
+      42,
+      40,
+      43,
+      25,
+      44,
+      13,
+      20
+    ],
+    "question": "What was the mass of the jet aircraft?"
+  },
+  {
+    "ground_truth_chunk_id": 15,
+    "retrieved_chunks": [
+      15,
+      2,
+      6,
+      3,
+      42,
+      4,
+      16,
+      5,
+      20,
+      7
+    ],
+    "question": "What was the force exerted by the wire?"
+  },
+  {
+    "ground_truth_chunk_id": 15,
+    "retrieved_chunks": [
+      11,
+      12,
+      14,
+      13,
+      39,
+      24,
+      23,
+      8,
+      21,
+      22
+    ],
+    "question": "What is kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 15,
+    "retrieved_chunks": [
+      13,
+      14,
+      12,
+      11,
+      21,
+      8,
+      15,
+      16,
+      23,
+      22
+    ],
+    "question": "Can the kinetic energy of an object change with its position if it moves with constant velocity?"
+  },
+  {
+    "ground_truth_chunk_id": 15,
+    "retrieved_chunks": [
+      13,
+      14,
+      15,
+      41,
+      25,
+      40,
+      44,
+      43,
+      16,
+      42
+    ],
+    "question": "Two objects A and B of mass m and 4m have the same kinetic energy. What is the ratio of the magnitude of velocities of A and B?"
+  },
+  {
+    "ground_truth_chunk_id": 16,
+    "retrieved_chunks": [
+      15,
+      13,
+      43,
+      41,
+      25,
+      40,
+      20,
+      42,
+      16,
+      14
+    ],
+    "question": "What is the magnitude of the velocity of the aircraft in the given scenario?"
+  },
+  {
+    "ground_truth_chunk_id": 16,
+    "retrieved_chunks": [
+      13,
+      14,
+      15,
+      25,
+      41,
+      40,
+      43,
+      42,
+      16,
+      44
+    ],
+    "question": "What is the ratio of the magnitude of velocities of two objects A and B of mass m and 4m with the same kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 16,
+    "retrieved_chunks": [
+      11,
+      39,
+      19,
+      12,
+      24,
+      20,
+      21,
+      23,
+      22,
+      40
+    ],
+    "question": "What is potential energy?"
+  },
+  {
+    "ground_truth_chunk_id": 16,
+    "retrieved_chunks": [
+      13,
+      14,
+      12,
+      11,
+      21,
+      8,
+      15,
+      16,
+      22,
+      9
+    ],
+    "question": "How does the kinetic energy of an object change when it moves with constant velocity?"
+  },
+  {
+    "ground_truth_chunk_id": 17,
+    "retrieved_chunks": [
+      17,
+      4,
+      3,
+      31,
+      5,
+      44,
+      1,
+      2,
+      38,
+      6
+    ],
+    "question": "What happens when you apply a force and stretch or compress a spring?"
+  },
+  {
+    "ground_truth_chunk_id": 17,
+    "retrieved_chunks": [
+      17,
+      8,
+      41,
+      20,
+      40,
+      19,
+      3,
+      13,
+      21,
+      11
+    ],
+    "question": "What happens to the energy of the spring when it is released?"
+  },
+  {
+    "ground_truth_chunk_id": 17,
+    "retrieved_chunks": [
+      21,
+      3,
+      17,
+      13,
+      43,
+      40,
+      41,
+      25,
+      42,
+      20
+    ],
+    "question": "What is the definition of internal forces?"
+  },
+  {
+    "ground_truth_chunk_id": 17,
+    "retrieved_chunks": [
+      18,
+      17,
+      11,
+      12,
+      21,
+      8,
+      19,
+      13,
+      24,
+      39
+    ],
+    "question": "How can a system store energy?"
+  },
+  {
+    "ground_truth_chunk_id": 17,
+    "retrieved_chunks": [
+      17,
+      18,
+      38,
+      5,
+      4,
+      44,
+      3,
+      8,
+      41,
+      16
+    ],
+    "question": "What happens to a small pea kept between two strong magnets when they are released?"
+  },
+  {
+    "ground_truth_chunk_id": 18,
+    "retrieved_chunks": [
+      18,
+      17,
+      38,
+      5,
+      41,
+      16,
+      4,
+      25,
+      40,
+      8
+    ],
+    "question": "What happens when unlike poles of two magnets are separated from each other and released?"
+  },
+  {
+    "ground_truth_chunk_id": 18,
+    "retrieved_chunks": [
+      18,
+      17,
+      12,
+      39,
+      21,
+      11,
+      22,
+      13,
+      14,
+      8
+    ],
+    "question": "What type of energy is stored by an object as a result of its deformation or in a system of objects due to their relative positions?"
+  },
+  {
+    "ground_truth_chunk_id": 18,
+    "retrieved_chunks": [
+      18,
+      21,
+      17,
+      19,
+      22,
+      0,
+      38,
+      9,
+      29,
+      20
+    ],
+    "question": "What happens when a system of objects interacts through forces, such as gravitational, electric or magnetic forces?"
+  },
+  {
+    "ground_truth_chunk_id": 18,
+    "retrieved_chunks": [
+      18,
+      17,
+      5,
+      19,
+      8,
+      20,
+      4,
+      3,
+      7,
+      6
+    ],
+    "question": "What happens to a ball and the Earth when they are separated from each other and the force is removed?"
+  },
+  {
+    "ground_truth_chunk_id": 19,
+    "retrieved_chunks": [
+      19,
+      20,
+      11,
+      12,
+      13,
+      0,
+      21,
+      24,
+      39,
+      40
+    ],
+    "question": "What is the simplest case of potential energy that we will look at in this chapter?"
+  },
+  {
+    "ground_truth_chunk_id": 19,
+    "retrieved_chunks": [
+      19,
+      20,
+      43,
+      8,
+      6,
+      9,
+      7,
+      42,
+      10,
+      21
+    ],
+    "question": "Why does the ball create a depression in the sand when dropped?"
+  },
+  {
+    "ground_truth_chunk_id": 19,
+    "retrieved_chunks": [
+      19,
+      11,
+      39,
+      12,
+      21,
+      20,
+      24,
+      23,
+      8,
+      0
+    ],
+    "question": "What is potential energy usually referred to as in this chapter?"
+  },
+  {
+    "ground_truth_chunk_id": 19,
+    "retrieved_chunks": [
+      20,
+      19,
+      43,
+      8,
+      41,
+      42,
+      21,
+      40,
+      3,
+      44
+    ],
+    "question": "What happens to the depth of the depression when the ball is dropped from a greater height?"
+  },
+  {
+    "ground_truth_chunk_id": 19,
+    "retrieved_chunks": [
+      19,
+      20,
+      43,
+      42,
+      21,
+      40,
+      8,
+      44,
+      13,
+      41
+    ],
+    "question": "What is the relationship between the height of the ball above the Earth's surface and its potential energy?"
+  },
+  {
+    "ground_truth_chunk_id": 20,
+    "retrieved_chunks": [
+      20,
+      19,
+      43,
+      8,
+      6,
+      7,
+      21,
+      42,
+      10,
+      9
+    ],
+    "question": "Why does the ball create a depression when dropped from a height?"
+  },
+  {
+    "ground_truth_chunk_id": 20,
+    "retrieved_chunks": [
+      20,
+      19,
+      21,
+      39,
+      40,
+      13,
+      24,
+      23,
+      25,
+      11
+    ],
+    "question": "What is the unit of potential energy?"
+  },
+  {
+    "ground_truth_chunk_id": 20,
+    "retrieved_chunks": [
+      39,
+      11,
+      19,
+      20,
+      12,
+      21,
+      24,
+      23,
+      40,
+      22
+    ],
+    "question": "What is potential energy defined as?"
+  },
+  {
+    "ground_truth_chunk_id": 20,
+    "retrieved_chunks": [
+      19,
+      20,
+      43,
+      42,
+      21,
+      40,
+      41,
+      44,
+      6,
+      8
+    ],
+    "question": "How does the height of the ball above the Earth's surface affect the depth of the depression?"
+  },
+  {
+    "ground_truth_chunk_id": 21,
+    "retrieved_chunks": [
+      19,
+      14,
+      20,
+      43,
+      40,
+      42,
+      41,
+      21,
+      8,
+      13
+    ],
+    "question": "What is the mass of the cricket ball?"
+  },
+  {
+    "ground_truth_chunk_id": 21,
+    "retrieved_chunks": [
+      19,
+      20,
+      21,
+      40,
+      8,
+      42,
+      23,
+      13,
+      43,
+      14
+    ],
+    "question": "What is the potential energy of the ball when it reaches its maximum height?"
+  },
+  {
+    "ground_truth_chunk_id": 21,
+    "retrieved_chunks": [
+      13,
+      11,
+      21,
+      12,
+      20,
+      22,
+      39,
+      19,
+      8,
+      23
+    ],
+    "question": "What is the sum of the kinetic energy and the potential energy of an object called?"
+  },
+  {
+    "ground_truth_chunk_id": 21,
+    "retrieved_chunks": [
+      21,
+      20,
+      19,
+      8,
+      13,
+      43,
+      42,
+      22,
+      40,
+      41
+    ],
+    "question": "How does the potential energy of an object near the surface of the Earth change if it is gradually raised in the vertical direction?"
+  },
+  {
+    "ground_truth_chunk_id": 22,
+    "retrieved_chunks": [
+      13,
+      11,
+      21,
+      12,
+      20,
+      22,
+      39,
+      19,
+      8,
+      23
+    ],
+    "question": "What is the sum of the kinetic energy and the potential energy of an object called?"
+  },
+  {
+    "ground_truth_chunk_id": 22,
+    "retrieved_chunks": [
+      21,
+      22,
+      13,
+      14,
+      3,
+      23,
+      8,
+      20,
+      12,
+      24
+    ],
+    "question": "What is the initial velocity of an object that has been lifted to a point and dropped?"
+  },
+  {
+    "ground_truth_chunk_id": 22,
+    "retrieved_chunks": [
+      20,
+      22,
+      19,
+      21,
+      40,
+      8,
+      12,
+      39,
+      13,
+      25
+    ],
+    "question": "What is the expression for the potential energy of an object at height h valid for?"
+  },
+  {
+    "ground_truth_chunk_id": 22,
+    "retrieved_chunks": [
+      22,
+      19,
+      20,
+      42,
+      43,
+      21,
+      8,
+      9,
+      44,
+      41
+    ],
+    "question": "How does the gravitational acceleration g change further away from the Earth’s surface?"
+  },
+  {
+    "ground_truth_chunk_id": 22,
+    "retrieved_chunks": [
+      22,
+      21,
+      8,
+      11,
+      19,
+      12,
+      23,
+      20,
+      41,
+      3
+    ],
+    "question": "What happens to the mechanical energy of an object as it falls due to the gravitational force?"
+  },
+  {
+    "ground_truth_chunk_id": 23,
+    "retrieved_chunks": [
+      11,
+      13,
+      8,
+      12,
+      21,
+      23,
+      20,
+      39,
+      19,
+      9
+    ],
+    "question": "What is the relationship between the increase in kinetic energy and the decrease in potential energy of an object as it falls?"
+  },
+  {
+    "ground_truth_chunk_id": 23,
+    "retrieved_chunks": [
+      13,
+      3,
+      23,
+      8,
+      21,
+      24,
+      4,
+      9,
+      11,
+      20
+    ],
+    "question": "What is the term for the principle that the mechanical energy of an object remains constant if no external forces act on it?"
+  },
+  {
+    "ground_truth_chunk_id": 23,
+    "retrieved_chunks": [
+      24,
+      23,
+      21,
+      22,
+      20,
+      19,
+      40,
+      43,
+      25,
+      41
+    ],
+    "question": "What is the potential energy of the pendulum bob at point P?"
+  },
+  {
+    "ground_truth_chunk_id": 23,
+    "retrieved_chunks": [
+      24,
+      23,
+      44,
+      38,
+      9,
+      8,
+      10,
+      20,
+      43,
+      42
+    ],
+    "question": "Why does the pendulum bob eventually stop in real life?"
+  },
+  {
+    "ground_truth_chunk_id": 24,
+    "retrieved_chunks": [
+      24,
+      23,
+      21,
+      22,
+      20,
+      19,
+      40,
+      43,
+      25,
+      41
+    ],
+    "question": "What is the potential energy of the pendulum bob at point Q?"
+  },
+  {
+    "ground_truth_chunk_id": 24,
+    "retrieved_chunks": [
+      24,
+      12,
+      21,
+      8,
+      3,
+      17,
+      11,
+      39,
+      18,
+      13
+    ],
+    "question": "What is the total energy of an object or system of objects which is not acted upon by any external forces?"
+  },
+  {
+    "ground_truth_chunk_id": 24,
+    "retrieved_chunks": [
+      23,
+      24,
+      11,
+      13,
+      21,
+      44,
+      20,
+      8,
+      43,
+      19
+    ],
+    "question": "What is the mechanical energy of the pendulum bob?"
+  },
+  {
+    "ground_truth_chunk_id": 24,
+    "retrieved_chunks": [
+      21,
+      22,
+      11,
+      24,
+      13,
+      12,
+      23,
+      8,
+      14,
+      44
+    ],
+    "question": "How can the conservation of mechanical energy be useful?"
+  },
+  {
+    "ground_truth_chunk_id": 25,
+    "retrieved_chunks": [
+      25,
+      42,
+      13,
+      43,
+      0,
+      20,
+      14,
+      40,
+      41,
+      21
+    ],
+    "question": "What is the magnitude of velocity of the child on reaching the bottom of the slide of height h?"
+  },
+  {
+    "ground_truth_chunk_id": 25,
+    "retrieved_chunks": [
+      25,
+      42,
+      43,
+      20,
+      41,
+      40,
+      13,
+      44,
+      19,
+      0
+    ],
+    "question": "What is the relationship between the potential energy of the child at the top of the slide and the child's kinetic energy at the bottom of the slide?"
+  },
+  {
+    "ground_truth_chunk_id": 25,
+    "retrieved_chunks": [
+      13,
+      12,
+      11,
+      14,
+      39,
+      25,
+      24,
+      23,
+      40,
+      21
+    ],
+    "question": "What is the definition of kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 25,
+    "retrieved_chunks": [
+      25,
+      42,
+      43,
+      0,
+      13,
+      41,
+      44,
+      20,
+      40,
+      19
+    ],
+    "question": "How does the shape of the slide affect the velocity of the child at the bottom of the slide?"
+  },
+  {
+    "ground_truth_chunk_id": 25,
+    "retrieved_chunks": [
+      25,
+      26,
+      32,
+      33,
+      42,
+      27,
+      43,
+      41,
+      40,
+      14
+    ],
+    "question": "What is the minimum length of the ramp required to stop a truck of mass 10000 kg moving at 72 km h–1 on an escape ramp inclined at 30°?"
+  },
+  {
+    "ground_truth_chunk_id": 26,
+    "retrieved_chunks": [
+      26,
+      25,
+      43,
+      6,
+      20,
+      3,
+      7,
+      19,
+      42,
+      41
+    ],
+    "question": "What is the force exerted by the sand opposite to the truck's motion?"
+  },
+  {
+    "ground_truth_chunk_id": 26,
+    "retrieved_chunks": [
+      25,
+      26,
+      13,
+      43,
+      14,
+      40,
+      41,
+      42,
+      21,
+      3
+    ],
+    "question": "What is the velocity of the truck?"
+  },
+  {
+    "ground_truth_chunk_id": 26,
+    "retrieved_chunks": [
+      26,
+      25,
+      13,
+      40,
+      11,
+      20,
+      12,
+      43,
+      41,
+      21
+    ],
+    "question": "What is the total initial energy of the truck?"
+  },
+  {
+    "ground_truth_chunk_id": 26,
+    "retrieved_chunks": [
+      0,
+      21,
+      22,
+      11,
+      26,
+      12,
+      24,
+      33,
+      8,
+      23
+    ],
+    "question": "Why is it sometimes simpler to solve problems using conservation of mechanical energy rather than Newton's laws?"
+  },
+  {
+    "ground_truth_chunk_id": 26,
+    "retrieved_chunks": [
+      25,
+      26,
+      20,
+      32,
+      43,
+      42,
+      44,
+      8,
+      41,
+      3
+    ],
+    "question": "What is the relationship between the distance traveled along the ramp and the height gained by the truck on the ramp?"
+  },
+  {
+    "ground_truth_chunk_id": 27,
+    "retrieved_chunks": [
+      26,
+      25,
+      27,
+      32,
+      43,
+      3,
+      41,
+      40,
+      33,
+      44
+    ],
+    "question": "What is the minimum length of the ramp to stop a 100000 N truck?"
+  },
+  {
+    "ground_truth_chunk_id": 27,
+    "retrieved_chunks": [
+      11,
+      12,
+      21,
+      23,
+      8,
+      13,
+      22,
+      9,
+      24,
+      20
+    ],
+    "question": "What is the formula for mechanical energy?"
+  },
+  {
+    "ground_truth_chunk_id": 27,
+    "retrieved_chunks": [
+      11,
+      19,
+      12,
+      20,
+      21,
+      8,
+      39,
+      13,
+      27,
+      9
+    ],
+    "question": "How does the kinetic energy and potential energy change at points A, B and C in the ball roller coaster?"
+  },
+  {
+    "ground_truth_chunk_id": 27,
+    "retrieved_chunks": [
+      28,
+      27,
+      41,
+      40,
+      3,
+      20,
+      43,
+      9,
+      13,
+      42
+    ],
+    "question": "What is the formula for power?"
+  },
+  {
+    "ground_truth_chunk_id": 28,
+    "retrieved_chunks": [
+      28,
+      27,
+      40,
+      3,
+      39,
+      41,
+      38,
+      0,
+      2,
+      11
+    ],
+    "question": "What is power defined as?"
+  },
+  {
+    "ground_truth_chunk_id": 28,
+    "retrieved_chunks": [
+      28,
+      27,
+      3,
+      40,
+      41,
+      13,
+      20,
+      9,
+      8,
+      43
+    ],
+    "question": "What is the SI unit of power?"
+  },
+  {
+    "ground_truth_chunk_id": 28,
+    "retrieved_chunks": [
+      28,
+      27,
+      44,
+      41,
+      40,
+      3,
+      43,
+      42,
+      38,
+      20
+    ],
+    "question": "What is the relationship between power and time?"
+  },
+  {
+    "ground_truth_chunk_id": 28,
+    "retrieved_chunks": [
+      28,
+      27,
+      3,
+      4,
+      8,
+      5,
+      41,
+      2,
+      9,
+      40
+    ],
+    "question": "How is power related to the work done and time taken?"
+  },
+  {
+    "ground_truth_chunk_id": 29,
+    "retrieved_chunks": [
+      3,
+      2,
+      4,
+      8,
+      5,
+      1,
+      6,
+      9,
+      11,
+      12
+    ],
+    "question": "What is the formula for calculating work done by an engine?"
+  },
+  {
+    "ground_truth_chunk_id": 29,
+    "retrieved_chunks": [
+      41,
+      40,
+      3,
+      13,
+      20,
+      21,
+      32,
+      43,
+      8,
+      42
+    ],
+    "question": "What is the mass of the object being lifted?"
+  },
+  {
+    "ground_truth_chunk_id": 29,
+    "retrieved_chunks": [
+      32,
+      33,
+      29,
+      37,
+      11,
+      30,
+      21,
+      22,
+      23,
+      36
+    ],
+    "question": "What is mechanical advantage?"
+  },
+  {
+    "ground_truth_chunk_id": 29,
+    "retrieved_chunks": [
+      30,
+      29,
+      8,
+      37,
+      34,
+      9,
+      44,
+      21,
+      35,
+      36
+    ],
+    "question": "How does a fixed pulley change the effort required to lift an object?"
+  },
+  {
+    "ground_truth_chunk_id": 29,
+    "retrieved_chunks": [
+      28,
+      27,
+      41,
+      40,
+      43,
+      42,
+      3,
+      20,
+      13,
+      25
+    ],
+    "question": "What is the power of the engine?"
+  },
+  {
+    "ground_truth_chunk_id": 30,
+    "retrieved_chunks": [
+      30,
+      29,
+      41,
+      3,
+      38,
+      40,
+      33,
+      32,
+      4,
+      44
+    ],
+    "question": "What is a pulley?"
+  },
+  {
+    "ground_truth_chunk_id": 30,
+    "retrieved_chunks": [
+      30,
+      29,
+      32,
+      33,
+      21,
+      44,
+      41,
+      37,
+      13,
+      3
+    ],
+    "question": "What is the mechanical advantage of a fixed pulley?"
+  },
+  {
+    "ground_truth_chunk_id": 30,
+    "retrieved_chunks": [
+      30,
+      29,
+      41,
+      3,
+      43,
+      40,
+      13,
+      44,
+      25,
+      42
+    ],
+    "question": "What is the main purpose of a pulley?"
+  },
+  {
+    "ground_truth_chunk_id": 30,
+    "retrieved_chunks": [
+      30,
+      29,
+      18,
+      17,
+      1,
+      21,
+      8,
+      39,
+      34,
+      5
+    ],
+    "question": "How can a movable pulley system be used to lift heavier objects?"
+  },
+  {
+    "ground_truth_chunk_id": 31,
+    "retrieved_chunks": [
+      5,
+      31,
+      4,
+      3,
+      1,
+      2,
+      29,
+      32,
+      41,
+      6
+    ],
+    "question": "What is the force required to lift a heavy box vertically?"
+  },
+  {
+    "ground_truth_chunk_id": 31,
+    "retrieved_chunks": [
+      31,
+      32,
+      8,
+      4,
+      5,
+      3,
+      29,
+      2,
+      33,
+      41
+    ],
+    "question": "What happens to the force required to pull up a cart along an inclined plank as it becomes less steep?"
+  },
+  {
+    "ground_truth_chunk_id": 31,
+    "retrieved_chunks": [
+      32,
+      33,
+      31,
+      3,
+      29,
+      4,
+      38,
+      11,
+      44,
+      8
+    ],
+    "question": "What is an inclined plane?"
+  },
+  {
+    "ground_truth_chunk_id": 31,
+    "retrieved_chunks": [
+      31,
+      32,
+      33,
+      8,
+      4,
+      2,
+      5,
+      3,
+      6,
+      29
+    ],
+    "question": "Why does the force required to pull up a cart along an inclined plank decrease as it becomes less steep?"
+  },
+  {
+    "ground_truth_chunk_id": 31,
+    "retrieved_chunks": [
+      31,
+      2,
+      1,
+      20,
+      3,
+      41,
+      35,
+      34,
+      32,
+      21
+    ],
+    "question": "What is the effect of applying a force over a larger distance to bring a cart to the same height?"
+  },
+  {
+    "ground_truth_chunk_id": 32,
+    "retrieved_chunks": [
+      32,
+      33,
+      31,
+      3,
+      29,
+      4,
+      38,
+      11,
+      44,
+      8
+    ],
+    "question": "What is an inclined plane?"
+  },
+  {
+    "ground_truth_chunk_id": 32,
+    "retrieved_chunks": [
+      32,
+      33,
+      29,
+      31,
+      44,
+      21,
+      25,
+      3,
+      11,
+      37
+    ],
+    "question": "What is the mechanical advantage of an inclined plane?"
+  },
+  {
+    "ground_truth_chunk_id": 32,
+    "retrieved_chunks": [
+      32,
+      33,
+      29,
+      31,
+      44,
+      21,
+      3,
+      25,
+      20,
+      43
+    ],
+    "question": "What is the formula for the mechanical advantage of an inclined plane?"
+  },
+  {
+    "ground_truth_chunk_id": 32,
+    "retrieved_chunks": [
+      33,
+      32,
+      4,
+      5,
+      38,
+      3,
+      21,
+      8,
+      17,
+      29
+    ],
+    "question": "Why are roads on hills built to wind around in gentle slopes rather than going straight up?"
+  },
+  {
+    "ground_truth_chunk_id": 33,
+    "retrieved_chunks": [
+      32,
+      33,
+      29,
+      31,
+      44,
+      21,
+      25,
+      3,
+      11,
+      37
+    ],
+    "question": "What is the mechanical advantage of an inclined plane?"
+  },
+  {
+    "ground_truth_chunk_id": 33,
+    "retrieved_chunks": [
+      3,
+      4,
+      2,
+      5,
+      32,
+      1,
+      41,
+      33,
+      35,
+      6
+    ],
+    "question": "What happens to the force F' when L is larger than h?"
+  },
+  {
+    "ground_truth_chunk_id": 33,
+    "retrieved_chunks": [
+      33,
+      32,
+      25,
+      29,
+      43,
+      3,
+      21,
+      13,
+      23,
+      41
+    ],
+    "question": "What is the mechanical advantage of the ramp in Example 7.12?"
+  },
+  {
+    "ground_truth_chunk_id": 33,
+    "retrieved_chunks": [
+      33,
+      32,
+      4,
+      38,
+      5,
+      3,
+      8,
+      17,
+      9,
+      21
+    ],
+    "question": "Why are roads on hills built to wind around in gentle slopes?"
+  },
+  {
+    "ground_truth_chunk_id": 33,
+    "retrieved_chunks": [
+      33,
+      32,
+      31,
+      29,
+      3,
+      38,
+      2,
+      4,
+      30,
+      5
+    ],
+    "question": "Why is climbing an inclined ladder easier than climbing a vertical ladder?"
+  },
+  {
+    "ground_truth_chunk_id": 34,
+    "retrieved_chunks": [
+      34,
+      35,
+      37,
+      36,
+      3,
+      38,
+      29,
+      40,
+      33,
+      41
+    ],
+    "question": "What is a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 34,
+    "retrieved_chunks": [
+      34,
+      35,
+      38,
+      37,
+      36,
+      3,
+      42,
+      40,
+      43,
+      41
+    ],
+    "question": "What is the purpose of a fulcrum in a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 34,
+    "retrieved_chunks": [
+      37,
+      35,
+      34,
+      36,
+      3,
+      44,
+      29,
+      4,
+      6,
+      20
+    ],
+    "question": "What is the relationship between the effort arm and the force applied by a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 34,
+    "retrieved_chunks": [
+      34,
+      35,
+      37,
+      29,
+      1,
+      2,
+      4,
+      5,
+      36,
+      3
+    ],
+    "question": "How does a lever make it possible to lift a heavier object with a smaller force?"
+  },
+  {
+    "ground_truth_chunk_id": 34,
+    "retrieved_chunks": [
+      34,
+      44,
+      42,
+      35,
+      43,
+      3,
+      37,
+      41,
+      20,
+      9
+    ],
+    "question": "What is the equation that describes the relationship between the forces and distances in a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 35,
+    "retrieved_chunks": [
+      34,
+      35,
+      3,
+      4,
+      5,
+      37,
+      6,
+      2,
+      7,
+      29
+    ],
+    "question": "What is the force applied in a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 35,
+    "retrieved_chunks": [
+      35,
+      36,
+      34,
+      37,
+      44,
+      29,
+      42,
+      43,
+      20,
+      41
+    ],
+    "question": "What is the distance of the load from the fulcrum called?"
+  },
+  {
+    "ground_truth_chunk_id": 35,
+    "retrieved_chunks": [
+      34,
+      35,
+      37,
+      36,
+      3,
+      38,
+      29,
+      40,
+      33,
+      41
+    ],
+    "question": "What is a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 35,
+    "retrieved_chunks": [
+      34,
+      35,
+      37,
+      29,
+      8,
+      1,
+      2,
+      36,
+      21,
+      22
+    ],
+    "question": "How can a lever be used to lift a heavier object?"
+  },
+  {
+    "ground_truth_chunk_id": 36,
+    "retrieved_chunks": [
+      36,
+      9,
+      10,
+      3,
+      42,
+      13,
+      40,
+      8,
+      41,
+      43
+    ],
+    "question": "What is the initial condition of the seesaw when 1 coin is placed in each pan?"
+  },
+  {
+    "ground_truth_chunk_id": 36,
+    "retrieved_chunks": [
+      37,
+      36,
+      35,
+      29,
+      30,
+      34,
+      32,
+      38,
+      44,
+      3
+    ],
+    "question": "What is the formula for the effort and load arm?"
+  },
+  {
+    "ground_truth_chunk_id": 36,
+    "retrieved_chunks": [
+      37,
+      34,
+      35,
+      32,
+      29,
+      33,
+      36,
+      21,
+      44,
+      13
+    ],
+    "question": "What is the mechanical advantage of a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 36,
+    "retrieved_chunks": [
+      37,
+      36,
+      35,
+      29,
+      34,
+      30,
+      8,
+      44,
+      32,
+      9
+    ],
+    "question": "How does the effort required change when the effort arm is increased?"
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      36,
+      35,
+      29,
+      30,
+      41,
+      38,
+      32,
+      34,
+      44
+    ],
+    "question": "What happens to the effort required to move the same load if the effort arm is increased?"
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      34,
+      37,
+      35,
+      29,
+      36,
+      32,
+      44,
+      21,
+      13,
+      33
+    ],
+    "question": "How can the mechanical advantage of a lever be calculated?"
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      34,
+      35,
+      32,
+      29,
+      33,
+      36,
+      21,
+      44,
+      13
+    ],
+    "question": "What is the mechanical advantage of a lever?"
+  },
+  {
+    "ground_truth_chunk_id": 37,
+    "retrieved_chunks": [
+      37,
+      36,
+      34,
+      35,
+      29,
+      32,
+      44,
+      21,
+      41,
+      33
+    ],
+    "question": "What happens to the distance moved by the effort when using a lever to gain a mechanical advantage?"
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      25,
+      44,
+      41,
+      43,
+      13,
+      40,
+      42,
+      15,
+      34
+    ],
+    "question": "What are the three classes of levers?"
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      11,
+      21,
+      22,
+      23,
+      12,
+      24,
+      13,
+      20,
+      25,
+      40
+    ],
+    "question": "What is the conservation of mechanical energy?"
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      3,
+      29,
+      32,
+      4,
+      1,
+      40,
+      33,
+      41,
+      2
+    ],
+    "question": "What is a perpetual machine?"
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      33,
+      27,
+      23,
+      24,
+      0,
+      6,
+      32,
+      29,
+      11
+    ],
+    "question": "Why do all real machines eventually slow down and stop?"
+  },
+  {
+    "ground_truth_chunk_id": 38,
+    "retrieved_chunks": [
+      38,
+      3,
+      29,
+      8,
+      21,
+      20,
+      4,
+      5,
+      44,
+      19
+    ],
+    "question": "Why is it easier to open the lid of a can by using a spoon?"
+  },
+  {
+    "ground_truth_chunk_id": 39,
+    "retrieved_chunks": [
+      3,
+      4,
+      8,
+      5,
+      2,
+      39,
+      9,
+      6,
+      13,
+      20
+    ],
+    "question": "Is work done when a force is applied, even if the object does not move?"
+  },
+  {
+    "ground_truth_chunk_id": 39,
+    "retrieved_chunks": [
+      8,
+      3,
+      9,
+      39,
+      11,
+      13,
+      20,
+      12,
+      44,
+      10
+    ],
+    "question": "What is the SI unit for both work and energy?"
+  },
+  {
+    "ground_truth_chunk_id": 39,
+    "retrieved_chunks": [
+      11,
+      12,
+      14,
+      13,
+      39,
+      24,
+      23,
+      8,
+      21,
+      22
+    ],
+    "question": "What is kinetic energy?"
+  },
+  {
+    "ground_truth_chunk_id": 39,
+    "retrieved_chunks": [
+      39,
+      8,
+      29,
+      11,
+      12,
+      21,
+      9,
+      17,
+      13,
+      5
+    ],
+    "question": "How can energy be used to make work easier?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      3,
+      4,
+      2,
+      8,
+      5,
+      9,
+      13,
+      6,
+      20,
+      40
+    ],
+    "question": "What is the formula for work done?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      3,
+      4,
+      2,
+      6,
+      5,
+      40,
+      7,
+      13,
+      8,
+      20
+    ],
+    "question": "How much work is done when a force of 1 newton displaces an object by 1 metre in the direction of the force?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      14,
+      12,
+      13,
+      11,
+      40,
+      21,
+      25,
+      22,
+      43,
+      15
+    ],
+    "question": "What is the expression for kinetic energy of a body of mass m and velocity v?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      20,
+      19,
+      22,
+      21,
+      40,
+      43,
+      42,
+      13,
+      41,
+      25
+    ],
+    "question": "What is the potential energy of an object of mass m at a small height h from the Earth’s surface?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      28,
+      27,
+      40,
+      3,
+      39,
+      41,
+      38,
+      0,
+      2,
+      11
+    ],
+    "question": "What is power defined as?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      8,
+      6,
+      21,
+      7,
+      3,
+      40,
+      4,
+      19,
+      20,
+      9
+    ],
+    "question": "What happens to the force acting on the ball when it reaches its highest point?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      21,
+      19,
+      20,
+      23,
+      8,
+      24,
+      22,
+      40,
+      41,
+      9
+    ],
+    "question": "What happens to the potential energy of the ball when it reaches its highest point?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      26,
+      25,
+      40,
+      8,
+      11,
+      3,
+      9,
+      12,
+      13,
+      20
+    ],
+    "question": "What is the energy transformation that takes place when a truck moves uphill?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      41,
+      40,
+      20,
+      8,
+      21,
+      39,
+      19,
+      3,
+      43,
+      9
+    ],
+    "question": "What is the gain in potential energy when the student is lifted straight up to the top?"
+  },
+  {
+    "ground_truth_chunk_id": 40,
+    "retrieved_chunks": [
+      41,
+      40,
+      8,
+      20,
+      44,
+      19,
+      21,
+      9,
+      27,
+      3
+    ],
+    "question": "How much more energy is required to raise the mass to the 20th floor compared to the 10th floor?"
+  },
+  {
+    "ground_truth_chunk_id": 41,
+    "retrieved_chunks": [
+      22,
+      21,
+      41,
+      40,
+      3,
+      42,
+      8,
+      39,
+      13,
+      20
+    ],
+    "question": "What is the acceleration due to gravity?"
+  },
+  {
+    "ground_truth_chunk_id": 41,
+    "retrieved_chunks": [
+      41,
+      40,
+      43,
+      13,
+      42,
+      20,
+      3,
+      25,
+      19,
+      44
+    ],
+    "question": "What is the mass of the student?"
+  },
+  {
+    "ground_truth_chunk_id": 41,
+    "retrieved_chunks": [
+      11,
+      39,
+      19,
+      12,
+      24,
+      20,
+      21,
+      23,
+      22,
+      40
+    ],
+    "question": "What is potential energy?"
+  },
+  {
+    "ground_truth_chunk_id": 41,
+    "retrieved_chunks": [
+      41,
+      27,
+      28,
+      42,
+      43,
+      8,
+      3,
+      9,
+      40,
+      20
+    ],
+    "question": "How does the power requirement change if the speed at which the flag is raised is doubled?"
+  },
+  {
+    "ground_truth_chunk_id": 41,
+    "retrieved_chunks": [
+      41,
+      43,
+      3,
+      42,
+      13,
+      20,
+      40,
+      9,
+      8,
+      44
+    ],
+    "question": "What is the ratio of the fuel used on the two days?"
+  },
+  {
+    "ground_truth_chunk_id": 42,
+    "retrieved_chunks": [
+      42,
+      44,
+      25,
+      43,
+      3,
+      41,
+      20,
+      8,
+      9,
+      37
+    ],
+    "question": "What is the relationship between the child and the adult on the seesaw?"
+  },
+  {
+    "ground_truth_chunk_id": 42,
+    "retrieved_chunks": [
+      42,
+      19,
+      43,
+      40,
+      20,
+      41,
+      21,
+      7,
+      6,
+      14
+    ],
+    "question": "What is the mass of the ball thrown up?"
+  },
+  {
+    "ground_truth_chunk_id": 42,
+    "retrieved_chunks": [
+      43,
+      42,
+      19,
+      20,
+      41,
+      21,
+      3,
+      22,
+      40,
+      13
+    ],
+    "question": "What is the gravitational attraction on the surface of the Moon compared to the Earth?"
+  },
+  {
+    "ground_truth_chunk_id": 42,
+    "retrieved_chunks": [
+      43,
+      42,
+      11,
+      12,
+      8,
+      21,
+      13,
+      41,
+      39,
+      23
+    ],
+    "question": "What happens to the kinetic energy of the car as it comes to a halt?"
+  },
+  {
+    "ground_truth_chunk_id": 43,
+    "retrieved_chunks": [
+      43,
+      42,
+      20,
+      19,
+      41,
+      21,
+      40,
+      22,
+      3,
+      13
+    ],
+    "question": "What is the gravitational attraction on the surface of the Moon compared to the surface of the Earth?"
+  },
+  {
+    "ground_truth_chunk_id": 43,
+    "retrieved_chunks": [
+      42,
+      43,
+      19,
+      20,
+      13,
+      14,
+      21,
+      40,
+      41,
+      8
+    ],
+    "question": "How far up will a ball thrown with the same upward velocity travel from the surface of the Moon?"
+  },
+  {
+    "ground_truth_chunk_id": 43,
+    "retrieved_chunks": [
+      42,
+      43,
+      12,
+      11,
+      14,
+      13,
+      15,
+      24,
+      39,
+      25
+    ],
+    "question": "What is the kinetic energy of a 1000 kg car at position A?"
+  },
+  {
+    "ground_truth_chunk_id": 43,
+    "retrieved_chunks": [
+      43,
+      42,
+      11,
+      13,
+      12,
+      14,
+      39,
+      44,
+      25,
+      21
+    ],
+    "question": "What does the kinetic energy of the car transform into?"
+  },
+  {
+    "ground_truth_chunk_id": 43,
+    "retrieved_chunks": [
+      21,
+      43,
+      19,
+      42,
+      14,
+      20,
+      13,
+      40,
+      22,
+      23
+    ],
+    "question": "What is the velocity of the ball at point P?"
+  },
+  {
+    "ground_truth_chunk_id": 44,
+    "retrieved_chunks": [
+      16,
+      44,
+      15,
+      3,
+      39,
+      41,
+      23,
+      4,
+      17,
+      8
+    ],
+    "question": "What happens when a rubber band is stretched and released in the experiment?"
+  },
+  {
+    "ground_truth_chunk_id": 44,
+    "retrieved_chunks": [
+      44,
+      16,
+      43,
+      42,
+      15,
+      41,
+      20,
+      3,
+      13,
+      40
+    ],
+    "question": "What is the relationship between the stretch of a rubber band and the distance travelled?"
+  },
+  {
+    "ground_truth_chunk_id": 44,
+    "retrieved_chunks": [
+      38,
+      29,
+      32,
+      3,
+      23,
+      1,
+      40,
+      34,
+      0,
+      33
+    ],
+    "question": "What is a simple machine?"
+  },
+  {
+    "ground_truth_chunk_id": 44,
+    "retrieved_chunks": [
+      44,
+      8,
+      25,
+      12,
+      13,
+      11,
+      9,
+      24,
+      21,
+      19
+    ],
+    "question": "How can scientists study the effects of dark energy?"
+  },
+  {
+    "ground_truth_chunk_id": 44,
+    "retrieved_chunks": [
+      44,
+      3,
+      13,
+      40,
+      41,
+      21,
+      43,
+      20,
+      25,
+      42
+    ],
+    "question": "What is the purpose of using computer simulations in physics?"
+  }
+]

@@ -8,7 +8,8 @@
     "question": "What is the capacity to do work?",
     "expected": "Energy, which is the capacity to do work, lies at the heart of all these ideas and of almost every activity in our daily life.",
     "generated": "The capacity to do work is referred to as energy.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 0,
@@ -19,7 +20,8 @@
     "question": "What is the source of energy for a child to walk?",
     "expected": "Food provides energy to walk",
     "generated": "I'm not able to find the source of energy for a child to walk in the provided context.",
-    "faithfulness": 0
+    "faithfulness": 0,
+    "relevancy": 0
   },
   {
     "ground_truth_chunk_id": 0,
@@ -30,7 +32,8 @@
     "question": "What is work?",
     "expected": "Let us first understand how to define work.",
     "generated": "Work is done on an object when a force is applied and the object is displaced. The work done does not have a direction, but it can be described using a number with a positive or negative sign, depending on the relative directions of the force and displacement. If the force and displacement are in the same direction, the work done is positive. If the force is zero or there is no displacement, no work is done on the object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 0,
@@ -41,7 +44,8 @@
     "question": "How can we use the ideas of work, energy, and power to analyse motion and interactions more easily?",
     "expected": "In this chapter, you will explore the ideas of work, energy and power, which often allow us to analyse motion and interactions more easily.",
     "generated": "The ideas of work, energy, and power often allow us to analyse motion and interactions more easily.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 1,
@@ -52,7 +56,8 @@
     "question": "How much more work is done to lift 3 bags to the same height compared to lifting 1 bag?",
     "expected": "3 times more work",
     "generated": "Three times more work is done to lift 3 bags to the same height compared to lifting 1 bag.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 1,
@@ -63,7 +68,8 @@
     "question": "What is the scientific definition of work done by a force?",
     "expected": "The work done by a constant force acting on an object in bringing about a certain displacement can be defined as: work done on an object by a constant force = force applied × displacement in the direction of the force.",
     "generated": "Work done by a force is defined as 1 joule when a constant force of 1 newton is applied to an object and it is displaced by 1 metre in the direction of the force, which can be calculated as the area under the force-displacement graph.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 1,
@@ -74,7 +80,8 @@
     "question": "What happens if the same machine is used three times in succession to lift the bag by 1 m each time?",
     "expected": "It would require 3 times more fuel",
     "generated": "If the same machine is used three times in succession to lift the bag by 1 m each time, it would require 3 times more fuel.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 1,
@@ -85,7 +92,8 @@
     "question": "Why does applying a larger force over the same distance allow you to proportionally do more work?",
     "expected": "This shows that applying a larger force over the same distance allows you to proportionally do more work.",
     "generated": "Applying a larger force over the same distance allows you to proportionally do more work because the work done is defined as the force applied times the displacement in the direction of the force. As the force increases, the work done increases proportionally, even if the distance remains the same.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 2,
@@ -96,7 +104,8 @@
     "question": "What is the work done by a force required to lift a single 5 kg bag of wheat by 1 m?",
     "expected": "The work required to lift the same bag by 1 m is not explicitly stated, but it can be inferred that it is equal to the work done by the force required to lift 1 bag.",
     "generated": "To find the work done, we need the force applied and the displacement. The force required to lift a single 5 kg bag of wheat is equal to mg, where m is the mass of the bag (5 kg) and g is the acceleration due to gravity. However, the value of g is not provided in the context. \n\nThe work done can be calculated using the formula: work done = force applied × displacement in the direction of the force. Since the displacement is 1 m and the force is mg, the work done would be mg × 1 m, but without the value of g, we cannot calculate the exact work done.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 2,
@@ -107,7 +116,8 @@
     "question": "What is the work done by a force required to lift a single 5 kg bag of wheat to a height of 3 m?",
     "expected": "You would have carried out 3 times more work as compared to the work required to lift the same bag by 1 m.",
     "generated": "To find the work done, we need the force applied and the displacement. The force required to lift a single 5 kg bag of wheat is equal to mg, where m is the mass of the bag (5 kg) and g is the acceleration due to gravity. However, the value of g is not provided in the context. \n\nThe displacement is given as 3 m. Since the work done is proportional to the displacement, lifting the bag to a height of 3 m would require 3 times more work than lifting it to a height of 1 m. \n\nThe context does not provide the exact value of the work done, but it can be expressed as Work = F × s, where F is the force applied (mg) and s is the displacement (3 m). Without the value of g, the exact work done cannot be calculated.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 2,
@@ -118,7 +128,8 @@
     "question": "What is the scientific definition of work done by a force?",
     "expected": "The work done by a constant force acting on an object in bringing about a certain displacement can be defined as: work done on an object by a constant force = force applied × displacement in the direction of the force.",
     "generated": "Work done by a force is defined as 1 joule when a constant force of 1 newton is applied to an object and it is displaced by 1 metre in the direction of the force, which can be calculated as the area under the force-displacement graph.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 2,
@@ -129,7 +140,8 @@
     "question": "What happens to the work done when the same force is applied over a larger distance?",
     "expected": "Applying the same force over a larger distance allows you to proportionally do more work.",
     "generated": "According to the context, when the same force is applied over a larger distance, the work done is proportionally more. Specifically, it is stated that \"applying the same force over a larger distance allows you to proportionally do more work.\"",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 2,
@@ -140,7 +152,8 @@
     "question": "What is the formula for calculating the work done by a constant force acting on an object?",
     "expected": "The formula is: work done on an object by a constant force = force applied × displacement in the direction of the force.",
     "generated": "The formula for calculating the work done by a constant force acting on an object is W = F × s, where W is the work done, F is the force, and s is the displacement in the direction of the force.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 3,
@@ -151,7 +164,8 @@
     "question": "What is the SI unit of work done?",
     "expected": "The SI unit of work done is joule, represented by J.",
     "generated": "The SI unit of work done is joule, which is represented by J.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 3,
@@ -162,7 +176,8 @@
     "question": "How is 1 joule of work defined?",
     "expected": "1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force.",
     "generated": "1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force.",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 3,
@@ -173,7 +188,8 @@
     "question": "What is the definition of work done?",
     "expected": "Work done is defined as the product of force and displacement in the direction of the force.",
     "generated": "Work done is defined as the product of the force applied to an object and its displacement in the direction of the force. 1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 3,
@@ -184,7 +200,8 @@
     "question": "When is work done equal to zero?",
     "expected": "Work done is equal to zero if the force acting on an object is zero, or if there is no displacement of the object, regardless of the force being applied.",
     "generated": "Work done is equal to zero when: \n1. The force acting on an object is zero (F = 0).\n2. There is no displacement of the object (s = 0), regardless of the force being applied.\n3. A force acts in a direction perpendicular to the displacement of an object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 3,
@@ -195,7 +212,8 @@
     "question": "How can the work done on an object be calculated when the force is not constant?",
     "expected": "The work done on an object can be calculated by finding the area under the force-displacement graph between the initial and the final positions.",
     "generated": "Even when the force is not constant, work done can still be calculated by finding the area under the force-displacement graph between the initial and the final positions.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 4,
@@ -206,7 +224,8 @@
     "question": "What happens to the work done on an object if the force acting on it is zero?",
     "expected": "No work is done on the object.",
     "generated": "If the force acting on an object is zero, then no work is done on the object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 4,
@@ -217,7 +236,8 @@
     "question": "What happens to the work done on an object if there is no displacement of the object?",
     "expected": "The work done on the object is also zero, regardless of the force being applied on it.",
     "generated": "The work done on an object is zero if there is no displacement of the object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 4,
@@ -228,7 +248,8 @@
     "question": "What is the definition of work in the context of physics?",
     "expected": "Work is the product of the force applied to an object and the displacement of the object in the direction of the force.",
     "generated": "Work done on an object is defined as the product of the force applied to the object and its displacement in the direction of the force. In equation form, 1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force, i.e., 1 J = 1 N × 1 m.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 4,
@@ -239,7 +260,8 @@
     "question": "Why do you feel tired when applying a force to an object, even if you haven't done any work on it?",
     "expected": "You feel tired because the muscles in your body repeatedly expand and contract, and use up the internal energy of your body.",
     "generated": "You feel tired because the muscles in your body repeatedly expand and contract, and use up the internal energy of your body, even though you have not done any work on the object in a scientific sense.",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 4,
@@ -250,7 +272,8 @@
     "question": "What happens to the work done by a force on an object when the force and displacement are perpendicular to each other?",
     "expected": "The work done by that force is zero.",
     "generated": "When the force and displacement are perpendicular to each other, no work is done by the force on the object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 5,
@@ -261,7 +284,8 @@
     "question": "What happens when the force and displacement are perpendicular to each other?",
     "expected": "No work is done by this force on the box.",
     "generated": "When the force and displacement are perpendicular to each other, no work is done by that force on the object.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 5,
@@ -272,7 +296,8 @@
     "question": "What is the condition for work done by a force on an object to be positive?",
     "expected": "When the displacement is in the same direction as the applied force.",
     "generated": "The condition for work done by a force on an object to be positive is when the displacement is in the same direction as the applied force.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 5,
@@ -283,7 +308,8 @@
     "question": "What is work?",
     "expected": "Work can be described using a number with a positive or a negative sign.",
     "generated": "Work is done on an object when a force is applied and the object is displaced. The work done does not have a direction, but it can be described using a number with a positive or negative sign, depending on the relative directions of the force and displacement.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 5,
@@ -294,7 +320,8 @@
     "question": "What happens when the displacement is in the same direction as the applied force?",
     "expected": "The work done by the force on the object is said to be positive.",
     "generated": "When the displacement is in the same direction as the applied force, the work done by the force on the object is said to be positive.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 5,
@@ -305,7 +332,8 @@
     "question": "How can the work done by a force on an object be negative?",
     "expected": "Depending upon the relative directions of the force and the displacement.",
     "generated": "The work done by a force on an object can be negative when the displacement is in the direction opposite to that of the force. For example, while stopping a ball, the goalkeeper applies a force in a direction opposite to the direction of motion of the football, and hence, opposite to the displacement, resulting in negative work done on the ball. Similarly, when a girl lowers a dumbbell down, the force she applies to hold it is in a direction opposite to the displacement, so she does negative work on it.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 6,
@@ -316,7 +344,8 @@
     "question": "When you push a wheelchair, what happens to the force applied by you and the displacement?",
     "expected": "The force applied by you on the wheelchair and its displacement are in the same direction.",
     "generated": "When you push a wheelchair, the force applied by you on the wheelchair and its displacement are in the same direction. Thus, you do positive work on the wheelchair.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 6,
@@ -327,7 +356,8 @@
     "question": "What happens when the displacement is in the direction opposite to that of the force?",
     "expected": "The work done by the force on the object is negative.",
     "generated": "When the displacement is in the direction opposite to that of the force, then the work done by the force on the object is negative.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 6,
@@ -338,7 +368,8 @@
     "question": "What is positive work?",
     "expected": "Positive work is done when the force applied and the displacement are in the same direction.",
     "generated": "When the displacement is in the same direction as the applied force, the work done by the force on the object is said to be positive.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 6,
@@ -349,7 +380,8 @@
     "question": "A girl lifts a dumbbell and slowly lowers it down. When does she do positive work on the dumbbell?",
     "expected": "When she moves the dumbbell up, the force is in the direction of displacement, so she does positive work on it.",
     "generated": "The girl does positive work on the dumbbell when she moves it up, as the force is in the direction of displacement.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 6,
@@ -360,7 +392,8 @@
     "question": "A goalkeeper applies a force of 200 N to stop a ball while moving her hand back by 15 cm. What is the work done by the goalkeeper on the ball?",
     "expected": "The work done by the goalkeeper on the ball = force × displacement of ball in the direction of force = 200 N × (– 0.15 m) = – 30 J",
     "generated": "The work done by the goalkeeper on the ball = force × displacement of ball in the direction of force = 200 N × (– 0.15 m) = – 30 J.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 7,
@@ -371,7 +404,8 @@
     "question": "What is the force applied by the girl to lift the dumbbell?",
     "expected": "The force applied by the girl is equal to the weight of the dumbbell.",
     "generated": "The girl applies a force equal to the weight of the dumbbell to lift it up.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 7,
@@ -382,7 +416,8 @@
     "question": "What is the work done by the goalkeeper on the ball when stopping it?",
     "expected": "The goalkeeper applied a force opposite to the motion of the ball, so she did negative work on the ball. The work done by the goalkeeper on the ball = force × displacement of ball in the direction of force.",
     "generated": "The work done by the goalkeeper on the ball when stopping it is negative work, calculated as force × displacement of ball in the direction of force, which equals -30 J.",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 7,
@@ -393,7 +428,8 @@
     "question": "What is work?",
     "expected": "Work is the product of force and displacement in the direction of the force.",
     "generated": "Work is done on an object when a force is applied and the object is displaced. The work done is calculated based on the force and displacement, and it can be positive or negative depending on the relative directions of the force and displacement. Work does not have a direction, but it can be described using a number with a positive or negative sign.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 7,
@@ -404,7 +440,8 @@
     "question": "What happens when the goalkeeper applies a force opposite to the motion of the ball?",
     "expected": "The goalkeeper does negative work on the ball.",
     "generated": "The goalkeeper does negative work on the ball.",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 8,
@@ -415,7 +452,8 @@
     "question": "What happens to an object when a force is applied and it is displaced?",
     "expected": "Work is done on it.",
     "generated": "I don't have information on what happens to an object when a force is applied and it is displaced in the provided context.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 8,
@@ -426,7 +464,8 @@
     "question": "What is the SI unit of energy?",
     "expected": "The joule (J).",
     "generated": "The SI unit of energy is the joule (J).",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 8,
@@ -437,7 +476,8 @@
     "question": "What is energy?",
     "expected": "An object having the capacity to do work is said to possess energy.",
     "generated": "Energy is the capacity to do work.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 8,
@@ -448,7 +488,8 @@
     "question": "How does the work-energy theorem relate to work done on an object?",
     "expected": "Work done on an object appears as a change in its energy.",
     "generated": "The work-energy theorem relates to work done on an object by stating that work done on an object appears as a change in its energy, which can be expressed as: work done on an object = change in its energy.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 8,
@@ -459,7 +500,8 @@
     "question": "What happens to the energy of an object when it is raised to a height?",
     "expected": "It gains energy from the work done in raising it to a height.",
     "generated": "When an object is raised to a height, its potential energy increases, as given by the equation: potential energy of the object = mgh, where m is the mass of the object and h is the height to which it is raised, and g is the acceleration due to gravity.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 9,
@@ -470,7 +512,8 @@
     "question": "What happens when the ball hits the wickets in a game of carrom?",
     "expected": "The ball transfers its energy to the wickets, making them move.",
     "generated": "I couldn't find the information you're looking for in the provided context.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 0
   },
   {
     "ground_truth_chunk_id": 9,
@@ -481,7 +524,8 @@
     "question": "What is the relation between work done on an object and its energy?",
     "expected": "Work done on an object appears as a change in its energy.",
     "generated": "Work done on an object and its energy are closely related to each other. The relation between the work done on an object and the change in its energy is called the work-energy theorem, which can be stated as: work done on an object = change in its energy.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 9,
@@ -492,7 +536,8 @@
     "question": "What is the work-energy theorem?",
     "expected": "The relation between the work done on an object and the change in its energy.",
     "generated": "The work-energy theorem can be stated as: work done on an object = change in its energy.",
-    "faithfulness": 1
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 9,
@@ -503,7 +548,8 @@
     "question": "How can energy be transferred without direct contact?",
     "expected": "Energy can be transferred through radiation, sound waves, electric circuits, and even in nuclear reactions.",
     "generated": "Energy can be transferred without direct contact through radiation, in electric circuits, via sound waves, and in nuclear reactions.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 10,
@@ -514,7 +560,8 @@
     "question": "How does the Sun's energy reach the Earth?",
     "expected": "The Sun's energy reaches the Earth through radiation.",
     "generated": "The Sun's energy reaches the Earth through radiation.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 10,
@@ -525,7 +572,8 @@
     "question": "What is the SI unit of work and energy?",
     "expected": "The SI unit of work and energy is the joule.",
     "generated": "The SI unit of work and energy is the joule (J).",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 10,
@@ -536,7 +584,8 @@
     "question": "What is the relationship between mechanical energy and thermal energy?",
     "expected": "Mechanical energy and thermal energy are related and can be converted from one to the other.",
     "generated": "I don't have information on the relationship between mechanical energy and thermal energy in the provided context.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 0
   },
   {
     "ground_truth_chunk_id": 10,
@@ -547,7 +596,8 @@
     "question": "What happens to the energy of the striker in a carrom shot?",
     "expected": "The striker's energy decreases due to the negative work done by the white coin on the striker.",
     "generated": "The energy of the striker in a carrom shot decreases as the white coin does negative work on the striker.",
-    "faithfulness": 0
+    "faithfulness": 1,
+    "relevancy": 1
   },
   {
     "ground_truth_chunk_id": 11,
@@ -558,6 +608,7 @@
     "question": "What forms does muscular energy appear as when pedaling a bicycle on a flat road?",
     "expected": "Muscular energy appears as mechanical energy and thermal energy as you ride.",
     "generated": "The provided context does not contain the specific information to answer the question about the forms of muscular energy when pedaling a bicycle on a flat road.",
-    "faithfulness": 0
+    "faithfulness": 0,
+    "relevancy": 0
   }
 ]

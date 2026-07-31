@@ -32,6 +32,27 @@ Target users: students of class 9(in the future it is planned to extend for all 
 
 ## Quickstart
 
+### Streamlit UI
+
+Run the interactive UI locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The app will open in your browser and let you ask questions against the ingested material.
+
+### Docker
+
+You can also run the app in a container:
+
+```bash
+docker compose up --build
+```
+
+Then open http://localhost:8501 in your browser.
+
 The easiest way to run the application is with Docker Compose:
 
 ```bash
@@ -123,6 +144,16 @@ wsl
 sudo apt install ntpdate
 sudo ntpdate time.windows.com
 ```
+## Best Practices
+
+### Query rewriting
+
+nltk library is used to look up synonyms in the WordNet database and query is rewritten.
+
+### Hybrid search 
+
+### Document-reranking
+
 
 ## Testing
 

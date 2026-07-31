@@ -25,26 +25,50 @@ class RAGBase:
         self,
         index,
         client,
+        vector_index,
+        embedder,
         instructions=INSTRUCTIONS,
         prompt_template=PROMPT_TEMPLATE,
         course='llm-zoomcamp',
-        model='allam-2-7b'
+        model='llama-3.3-70b-versatile'
     ):
         self.index = index
+        self.vector_index = vector_index
+        self.embedder = embedder
         self.llm_client = client
         self.instructions = instructions
         self.course = course
         self.prompt_template = prompt_template
         self.model = model
 
-    def search(self, query, num_results=2):
+    def rrf(result_lists, k=60, num_results=2):
+        scores = {}
+        docs = {}
+    
+        for results in result_lists:
+            for rank, doc in enumerate(results):
+                key = (doc["chunk_id"], doc["start"])
+                scores[key] = scores.get(key, 0) + 1 / (k + rank)
+                docs[key] = doc
+    
+        ranked = sorted(scores, key=scores.get, reverse=True)
+        return [docs[key] for key in ranked[:num_results]]
+
+    def search(self, query, num_results=10):
         boost_dict = {'content': 3.0, 'metadata': 0.5}
 
-        return self.index.search(
+        text_search_result =self.index.search(
             query,
             num_results=num_results,
             boost_dict=boost_dict
         )
+        vector_search_result = self.vector_index.search(
+            self.embedder.encode(query),
+            num_results=num_results
+        )
+       
+        rrf = RAGBase.rrf([vector_search_result,text_search_result])
+        return rrf
 
     def build_context(self, search_results):
         lines = []
@@ -55,6 +79,8 @@ class RAGBase:
         return '\n'.join(lines).strip()
 
     def build_prompt(self, query, search_results):
+        print("prompt_template type:", type(self.prompt_template))
+        print("embedder type:", type(self.embedder))
         context = self.build_context(search_results)
         return self.prompt_template.format(
             question=query, context=context
